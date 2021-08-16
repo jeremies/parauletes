@@ -29,7 +29,7 @@ serviceWorkerRegistration.register({
     }
   },
   onSuccess: registration => {
-    setTimeout(registration.update, 1000);
+    setInterval(registration.update, 1000);
   }
 });
 
