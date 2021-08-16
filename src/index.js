@@ -28,6 +28,8 @@ serviceWorkerRegistration.register({
       waitingServiceWorker.postMessage({ type: "SKIP_WAITING" });
     }
   }
+}).then(reg => {
+  setTimeout(reg.update, 1000);
 });
 
 // If you want to start measuring performance in your app, pass a function
