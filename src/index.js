@@ -27,9 +27,6 @@ serviceWorkerRegistration.register({
       });
       waitingServiceWorker.postMessage({ type: "SKIP_WAITING" });
     }
-  },
-  onSuccess: registration => {
-    setInterval(registration.update, 1000);
   }
 });
 
