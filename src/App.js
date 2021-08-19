@@ -1,28 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import parauletes from "./parauletes.json";
+import "./App.css";
 
 function reload() {
   window.location.reload();
 }
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 function App() {
+  const [verset, setVerset] = useState();
+  const [cita, setCita] = useState();
+
+  useEffect(() => {
+    let numeroAleatori = getRandomInt(parauletes.length);
+
+    setVerset(parauletes[numeroAleatori].versetCA);
+    setCita(parauletes[numeroAleatori].cita);
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. 13
-        </p>
-        <button onClick={reload}>hola</button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>{verset}</p>
+        <p>{cita}</p>
+        <button className="button" onClick={reload}>
+          Nou verset
+        </button>
+        <p>v13</p>
       </header>
     </div>
   );
