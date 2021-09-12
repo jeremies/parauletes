@@ -17,7 +17,7 @@
   border: 0;
   padding: 0.5rem 1rem;
   margin: 0.125rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-align: center;
   color: #fff;
   border-radius: 0.5rem;
@@ -46,13 +46,16 @@
 .title-text {
   margin-left: 1rem;
   font-weight: bold;
+  font-size: 1.75rem;
 }
 
 .verset {
   margin-left: 2rem;
   margin-right: 2rem;
+  font-size: 1.5rem;
 }
 
 .cita {
   margin-top: 0;
+  font-size: 1.5rem;
 }
