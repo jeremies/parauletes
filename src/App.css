@@ -25,11 +25,34 @@
   cursor: pointer;
 }
 
+.icon-div {
+  color: white;
+}
+
 .icon {
-  width: 20px;
+  width: 2rem;
 }
 
 .st0 {
   fill-rule: evenodd;
   clip-rule: evenodd;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title-text {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.verset {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.cita {
+  margin-top: 0;
 }
