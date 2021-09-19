@@ -20,7 +20,9 @@ function App() {
     setVerset(parauletes[numeroAleatori].versetCA);
     setCita(parauletes[numeroAleatori].cita);
 
-    fetch("https://api.countapi.xyz/hit/parauletes.netlify.app/requests");
+    if (!window.location.hostname === "localhost") {
+      fetch("https://api.countapi.xyz/hit/parauletes.netlify.app/requests");
+    }
   }, []);
 
   return (
