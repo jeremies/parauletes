@@ -1,1102 +1,660 @@
 [
   {
-    "versetCA": "Llavors, allà mateix, cercaràs el Senyor, el teu Déu. I si el cerques amb tot el cor i amb tota l'ànima, el trobaràs.",
-    "cita": "Deuteronomi 4, 29"
-  },
-  {
-    "versetCA": "Quan en una de les ciutats del país que el Senyor, el teu Déu, et dóna, hi hagi un pobre entre els teus germans, no endureixis el cor, no tanquis la mà al teu germà pobre.",
-    "cita": "Deuteronomi 15, 7"
-  },
-  {
-    "versetCA": "Però el Senyor digué a Samuel: –No et fixis en el seu aspecte ni en la seva estatura. L'he descartat. El que val no és allò que l'home veu: l'home veu l'aparença, el Senyor veu el fons del cor.",
-    "cita": "1r Samuel 16, 7"
-  },
-  {
-    "versetCA": "De nit et desitjo amb tota l'ànima, Senyor, em deleixo per tu del fons del cor.",
-    "cita": "Isaïes 26, 9"
-  },
-  {
-    "versetCA": "Senyor, per què permets que ens desviem del teu camí, que el nostre cor s'endureixi i no et veneri? Reconcilia't amb nosaltres, que som servents teus: som el poble que tens per heretat.",
-    "cita": "Isaïes 63, 17"
-  },
-  {
-    "versetCA": "Senyor, tu em coneixes i em veus, has comprovat que el meu cor és amb tu.",
-    "cita": "Jeremies 12, 3"
-  },
-  {
-    "versetCA": "Quan m'arribava la teva paraula, jo la devorava: ella ha estat el goig i l'alegria del meu cor. Jo porto el teu nom, Senyor, Déu de l'univers.",
-    "cita": "Jeremies 15, 16"
-  },
-  {
-    "versetCA": "Els obriré el cor perquè em coneguin: sabran que jo sóc el Senyor. Ells seran el meu poble i jo seré el seu Déu: es convertiran a mi de tot cor.",
-    "cita": "Jeremies 24, 7"
-  },
-  {
-    "versetCA": "Em cercareu i em trobareu, perquè em cercareu amb tot el cor",
-    "cita": "Jeremies 29, 13"
-  },
-  {
-    "versetCA": "L'aliança que jo faré amb el casal d'Israel després d'aquells dies serà aquesta: Posaré la meva llei en el seu interior, l'escriuré en el seu cor.",
-    "cita": "Jeremies 31, 33"
-  },
-  {
-    "versetCA": "Faré que tots tinguin un sol cor i un sol comportament, tots em veneraran dia rere dia, per a bé d'ells i dels seus descendents.",
-    "cita": "Jeremies 32, 39"
-  },
-  {
-    "versetCA": "Pactaré amb ells una aliança eterna: no em cansaré de ser a prop seu per fer-los el bé; faré que em venerin de tot cor i no s'allunyin de mi.",
-    "cita": "Jeremies 32, 40"
-  },
-  {
-    "versetCA": "Jo els donaré un sol cor i els infondré un esperit nou; trauré d'ells aquest cor de pedra i els en donaré un de carn.",
-    "cita": "Ezequiel 11, 19"
-  },
-  {
-    "versetCA": "Us donaré un cor nou i posaré un esperit nou dins vostre; trauré de vosaltres aquest cor de pedra i us en donaré un de carn.",
-    "cita": "Ezequiel 36, 26"
-  },
-  {
-    "versetCA": "Jo la seduiré, la portaré al desert i li parlaré al cor.",
-    "cita": "Osees 2, 16"
-  },
-  {
-    "versetCA": "Et dono gràcies, Senyor, amb tot el cor, contaré totes les teves meravelles.",
-    "cita": "Salms 9, 2"
-  },
-  {
-    "versetCA": "Acull, Senyor, el desig dels desvalguts; enforteix el seu cor, escolta'ls.",
-    "cita": "Salms 10, 17"
-  },
-  {
-    "versetCA": "Però jo confio en el teu amor, el meu cor s'alegra perquè em salves. Canto al Senyor pels seus favors.",
-    "cita": "Salms 13, 6"
-  },
-  {
-    "versetCA": "En veure'm en perill, clamo al Senyor, crido socors al meu Déu; des del seu palau, ell esColossencsta el meu clam, el meu crit li arriba al cor.",
-    "cita": "Salms 18, 7"
-  },
-  {
-    "versetCA": "Que et complaguin les paraules dels meus llavis i que et siguin agradables els pensaments del meu cor, Senyor, penyal meu, redemptor meu!",
-    "cita": "Salms 19, 15"
-  },
-  {
-    "versetCA": "Espera en el Senyor; sigues valent, que el teu cor no desfalleixi. Espera en el Senyor.",
-    "cita": "Salms 27, 14"
-  },
-  {
-    "versetCA": "El Senyor és el mur que em protegeix; el meu cor confia en ell. M'ha defensat i me n'alegro tot jo; vull lloar-lo amb els meus cants.",
-    "cita": "Salms 28, 7"
-  },
-  {
-    "versetCA": "Que sigui el Senyor la teva delícia: ell et donarà el que desitja el teu cor.",
-    "cita": "Salms 37, 4"
-  },
-  {
-    "versetCA": "Tu que estimes la veritat al fons del cor, m'ensenyes dintre meu a tenir seny.",
-    "cita": "Salms 51, 8"
-  },
-  {
-    "versetCA": "Déu meu, crea en mi un cor ben pur, fes renéixer en mi un esperit ferm.",
-    "cita": "Salms 51, 12"
-  },
-  {
-    "versetCA": "El meu cor se sent segur, Déu meu, se sent segur el meu cor. Tocaré i cantaré",
-    "cita": "Salms 57, 8"
-  },
-  {
-    "versetCA": "Desvetlla't, cor meu, desvetlleu-vos, arpa i lira meva, vull desvetllar l'aurora.",
-    "cita": "Salms 57, 9"
-  },
-  {
-    "versetCA": "Vosaltres, poble seu, confieu sempre en ell, esplaieu davant d'ell el vostre cor: Déu és el nostre refugi.",
-    "cita": "Salm 62, 9"
-  },
-  {
-    "versetCA": "Tu ets el meu Déu, Senyor; a l'alba et cerco. Tot jo tinc set de tu, per tu es desviu el meu cor en terra eixuta, assedegada, sense aigua.",
-    "cita": "Salm 63, 2"
-  },
-  {
-    "versetCA": "Ensenya'm la teva ruta, Senyor, que m'encamini en la teva veritat; que el meu cor tot sencer veneri el teu nom.",
-    "cita": "Salm 86, 11"
-  },
-  {
-    "versetCA": "Et lloaré, Senyor, Déu meu, amb tot el cor, glorificaré per sempre el teu nom",
-    "cita": "Salm 86, 12"
-  },
-  {
-    "versetCA": "Ensenya'ns a comptar els nostres dies per a adquirir la saviesa del cor.",
-    "cita": "Salm 90, 12"
-  },
-  {
-    "versetCA": "Beneeix el Senyor, ànima meva, del fons del cor beneeix el seu sant nom.",
-    "cita": "Salm 103, 1"
-  },
-  {
-    "versetCA": "El meu cor se sent segur, Déu meu; tocaré i cantaré amb tota la força.",
-    "cita": "Salm 108, 2"
-  },
-  {
-    "versetCA": "Fes-me entendre la teva Llei, que la vull guardar amb tot el cor.",
-    "cita": "Salm 119, 34"
-  },
-  {
-    "versetCA": "Viuré amb el cor ample, jo que medito els teus preceptes.",
-    "cita": "Salm 119, 45"
-  },
-  {
-    "versetCA": "Senyor, el meu cor no és ambiciós ni són altius els meus ulls; visc sense pretensions de grandeses o de coses massa altes per a mi.",
-    "cita": "Salm 131, 1"
-  },
-  {
-    "versetCA": "Déu meu, penetra els meus secrets i coneix el meu cor, examina'm per conèixer què desitjo.",
-    "cita": "Salm 139, 23"
-  },
-  {
-    "versetCA": "Para l'orella a la saviesa, obre el cor al seny",
-    "cita": "Proverbis 2, 2"
-  },
-  {
-    "versetCA": "No oblidis la meva instrucció, fill meu, guarda en el cor els meus preceptes",
-    "cita": "Proverbis 3, 1"
-  },
-  {
-    "versetCA": "No perdis l'amor ni la fidelitat: lliga-te-les al coll, grava-te-les al cor",
-    "cita": "Proverbis 3, 3"
-  },
-  {
-    "versetCA": "Una pena al cor deprimeix, una bona paraula porta alegria.",
-    "cita": "Proverbis 12, 25"
-  },
-  {
-    "versetCA": "L'esperança que es retarda afligeix el cor, la que es compleix alimenta com l'arbre de la vida.",
-    "cita": "Proverbis 13, 12"
-  },
-  {
-    "versetCA": "Un esguard radiant alegra el cor, una bona notícia dóna nou vigor.",
-    "cita": "Proverbis 15, 30"
-  },
-  {
-    "versetCA": "Fill meu, si el teu cor es fa savi, també el meu cor se n'alegra",
-    "cita": "Proverbis 23, 15"
-  },
-  {
-    "versetCA": "Tu, fill meu, escolta i posa seny, procura d'encaminar el teu cor.",
-    "cita": "Proverbis 23, 19"
-  },
-  {
-    "versetCA": "El perfum i l'encens alegren el cor; la tendresa de l'amic val més que el propi parer.",
-    "cita": "Proverbis 27, 9"
-  },
-  {
-    "versetCA": "L'aigua és l'espill de la cara, el cor és l'espill de l'home.",
-    "cita": "Proverbis 27, 19"
-  },
-  {
-    "versetCA": "Venerar el Senyor alegra el cor, dóna joia, goig i llarga vida. Venerar el Senyor és un do del mateix Senyor, que condueix l'home pels camins de l'amor.",
-    "cita": "Siràcida 1, 12"
-  },
-  {
-    "versetCA": "Redreça el teu cor, sigues valent i no t'espantis en els moments difícils.",
-    "cita": "Siràcida 2, 2"
-  },
-  {
-    "versetCA": "El cor de l'home afaiçona l'aspecte de la cara, sigui en bé, sigui en mal.",
-    "cita": "Siràcida 13, 25"
-  },
-  {
-    "versetCA": "Una cara alegre és senyal d'un cor bo, però trobar un proverbi ben pensat demana molta reflexió",
-    "cita": "Siràcida 13, 26"
-  },
-  {
-    "versetCA": "Un cop a l'ull, en fa saltar les llàgrimes; un cop al cor, en revela els sentiments.",
-    "cita": "Siràcida 22, 19"
-  },
-  {
-    "versetCA": "No hi ha riquesa millor que la salut del cos ni benestar que valgui tant com l'alegria del cor.",
-    "cita": "Siràcida 30, 16"
-  },
-  {
-    "versetCA": "L'alegria del cor és vida per a l'home, i la joia li allarga els dies.",
-    "cita": "Siràcida 30, 22"
-  },
-  {
-    "versetCA": "Feliç aquell qui reflexionarà sobre aquests ensenyaments! Qui els posi en el seu cor es farà savi",
-    "cita": "Siràcida 50, 28"
-  },
-  { "versetCA": "On tens el tresor, hi tindràs el cor", "cita": "Mateu 6, 21" },
-  {
-    "versetCA": "Accepteu el meu jou i feu-vos deixebles meus, que sóc benèvol i humil de cor, i trobareu el repòs",
-    "cita": "Mateu 11, 29"
-  },
-  {
-    "versetCA": "Maria guardava tot això en el seu cor i ho meditava",
-    "cita": "Lluc 2, 19"
-  },
-  {
-    "versetCA": "L'home bo, del bon tresor del seu cor, en treu la bondat, i l'home dolent, del seu tresor dolent, en treu el mal. Perquè del que sobreïx del cor, en parla la boca",
-    "cita": "Lluc 6, 45"
-  },
-  {
-    "versetCA": "La multitud dels creients tenia un sol cor i una sola ànima, i cap d'ells no considerava com a propis els béns que posseïa, sinó que tot estava al servei de tots",
-    "cita": "Fets dels Apòstols 4, 32"
-  },
-  {
-    "versetCA": "Però, tal com diu l'Escriptura: Cap ull no ha vist mai, ni cap orella ha sentit, ni el cor de l'home somia allò que Déu té preparat per als qui l'estimen",
-    "cita": "Primera carta als Corintis 2, 9"
-  },
-  {
-    "versetCA": "Li demano que il·lumini la mirada interior del vostre cor perquè conegueu a quina esperança ens ha cridat",
-    "cita": "Efesis 1, 18"
-  },
-  {
-    "versetCA": "Digueu tots junts salms, himnes i càntics de l'Esperit, cantant al Senyor i lloant-lo en el vostre cor",
-    "cita": "Efesis 5, 19"
-  },
-  {
-    "versetCA": "Sigui quin sigui el vostre treball, feu-lo de cor",
-    "cita": "Colossencs 3, 23"
-  },
-  {
-    "versetCA": "Tota la teva exhortació ha de conduir a l'amor que neix d'un cor net, d'una consciència recta i d'una fe sincera.",
-    "cita": "Primera Timoteu 1, 5"
-  },
-  {
-    "versetCA": "La paraula de Déu és viva i eficaç. És més penetrant que una espasa de dos talls: arriba a destriar l'ànima i l'esperit, les articulacions i el moll dels ossos; discerneix les intencions i els pensaments del cor.",
-    "cita": "Hebreus 4, 12"
-  },
-  {
-    "versetCA": "Aquesta és l'aliança que jo portaré amb el casal d'Israel després d'aquells dies, diu el Senyor: Posaré les meves lleis en el seu interior, les escriuré en el seu cor. Llavors jo seré el seu Déu i ells seran el meu poble.",
-    "cita": "Hebreus 8, 10"
-  },
-  {
-    "versetCA": "Estimeu-vos els uns als altres intensament i amb un cor net",
-    "cita": "Primera Pere 1, 22"
-  },
-  {
-    "versetCA": "No tinguis por. Jo sóc amb tu, per ajudar-te. ",
-    "cita": "Isaïes 41, 10"
-  },
-  {
-    "versetCA": "Només en Déu reposa la meva ànima. És el castell on em sento segur. ",
-    "cita": "Salm 62, 2"
-  },
-  {
-    "versetCA": "El Senyor m’il·lumina i em salva, qui em pot fer por?",
-    "cita": "Salm 27, 1"
-  },
-  {
-    "versetCA": "Vós, Senyor, sou el meu Déu; jo us cerco.Tot jo tinc set de vós. ",
-    "cita": "Salm 62, 8"
-  },
-  {
-    "versetCA": "Us invoco, Senyor, i sé que em respondreu. Us invoco, Déu meu, escolteu el que us demano! A vós elevo la meva ànima, Senyor; Déu meu, en vós confio!",
-    "cita": "Primera Cròniques 22, 19"
-  },
-  {
-    "versetCA": "Em mantinc en una pau tranquil·la, com un nen a la falda de la mare. ",
-    "cita": "Salm 131, 2"
-  },
-  {
-    "versetCA": "La vostra Paraula fa llum als meus passos, és la claror que m’il·lumina el camí. ",
-    "cita": "Salm 119, 9"
-  },
-  {
-    "versetCA": "Senyor, Déu meu, a vós giro els ulls, en vós em refugio, no em deixeu indefens ",
-    "cita": "Salm 140"
-  },
-  {
-    "versetCA": "Senyor, vós sou l’escut que em protegeix ",
-    "cita": "Salm 3, 4"
-  },
-  { "versetCA": "L’amor que em teniu val més que la vida ", "cita": "Salm 62" },
-  {
-    "versetCA": "Quan des del llit us recordo, passo les nits pensant en vós ",
-    "cita": "Salm 62"
-  },
-  {
-    "versetCA": "La meva ànima s’ha enamorat de vós, em sosté la vostra mà ",
-    "cita": "Salm 62, 6-7"
-  },
-  {
-    "versetCA": "Déu és amor; el qui viu en l’amor està en Déu, i Déu està en ell ",
-    "cita": "Primera Joan 4, 16"
-  },
-  {
-    "versetCA": "Veniu a salvar-me la vida, allibereu-me per la vostra bondat ",
-    "cita": "Salm 6, 5"
-  },
-  {
-    "versetCA": "Escolteu, Senyor, les meves paraules, acull el meu anhel ",
-    "cita": "Salm 5, 2"
-  },
-  {
-    "versetCA": "És a vós que imploro, Senyor, escolteu el meu clam a trenc d’alba ",
-    "cita": "Salm 5, 3"
-  },
-  {
-    "versetCA": "Guieu-me, Senyor, vós que sou just, feu-me planer el camí que obriu davant meu ",
-    "cita": "Salm 5, 9"
-  },
-  {
-    "versetCA": "On hi ha l’Esperit del Senyor hi ha la llibertat",
-    "cita": "2 Corintis 3, 17"
-  },
-  {
-    "versetCA": "Els sofriments que ara passem són lleugers i d’un moment, però van acumulant un pes incomparablement de glòria, que durarà per sempre",
-    "cita": "2 Corintis 4, 17"
-  },
-  {
-    "versetCA": "El Senyor és compassiu i benigne, lent per al càstig i ric en l’amor",
-    "cita": "Salm 103, 8"
-  },
-  {
-    "versetCA": "Però l’amor del Senyor pels seus fidels és de sempre i dura per sempre ",
-    "cita": "Salm 103, 17"
-  },
-  { "versetCA": "Confio en Déu i no tinc por", "cita": "Salm 55, 11" },
-  {
-    "versetCA": "Els mars profunds no podran apagar l’amor, ni ofegar-lo les fonts dels oceans",
-    "cita": "Càntic dels càntics 8, 7"
-  },
-  {
-    "versetCA": "Aixeca’t amiga meva, bonica meva i vine! Mira, l’hivern ja ha passat, la pluja s’ha esvaït, ja se n’ha anat. Les flors  despunten a la terra, ja arriba el temps d’esbrotar",
-    "cita": "Càntic dels càntics  2, 10-12"
-  },
-  {
-    "versetCA": "Posa’m com un segell sobre el teu cor, com un segell sobre el teu braç, perquè l’amor és fort com la mort",
-    "cita": "Càntic dels càntics 8, 6"
-  },
-  {
-    "versetCA": "Igualment jo us dic que en el cel hi haurà més alegria per un sol pecador que es converteix que no pas per noranta-nou justos que no necessiten convertir-se",
-    "cita": "Lluc 15, 7"
-  },
-  {
-    "versetCA": "Fill, tu sempre ets amb mi, i tot el que és meu és teu",
-    "cita": "Lluc 15,  31"
-  },
-  {
-    "versetCA": "Aixeca’t i vés-te’n: la teva fe t’ha salvat",
-    "cita": "Lluc 17, 19"
-  },
-  {
-    "versetCA": "Feliços els pobres en l’esperit, d’ells és el Regne del cel",
-    "cita": "Mateu 5, 3"
-  },
-  {
-    "versetCA": "Feliços els qui ploren, Déu els consolarà",
-    "cita": "Mateu 5, 4"
-  },
-  {
-    "versetCA": "Coneixereu la veritat i la veritat us farà lliures",
-    "cita": "Lluc 8, 32"
-  },
-  {
-    "versetCA": "Jo tu ordeno: Siguis fort i valent! No tinguis por i no et desanimis!  Perquè el Senyor el teu Déu t’acompanyarà allà on vagis",
-    "cita": "Josuè 1, 9"
-  },
-  {
-    "versetCA": "Així, doncs, t’asseguro que els seus molts pecats li han estat perdonats: per això ella estima molt.  Aquell a qui poc és perdonat, estima poc",
-    "cita": "Lluc 7, 47"
-  },
-  {
-    "versetCA": "Dona, on són? ¿Ningú no t'ha condemnat? Ella va respondre: Ningú, Senyor. Jesús digué: Jo tampoc no et condemno. Vés-te'n, i d'ara endavant no pequis més",
-    "cita": "Joan 8, 11"
-  },
-  {
-    "versetCA": "El Senyor té pietat de Sió, té pietat de totes les seves ruïnes: convertirà aquest desert en paradís, aquesta estepa en el seu jardí. L’ompliran crits de joia i d’alegria, accions de gràcies, músiques i cants",
-    "cita": "Isaïes 51, 3"
-  },
-  {
-    "versetCA": "I ara et torno a prendre amb un amor immens. Ara t’estimo amb un amor etern. T’ho diu el Senyor, el qui t’allibera",
-    "cita": "Isaïes 54 7-8"
-  },
-  {
-    "versetCA": "Alça’t radiant, Jerusalem, que arriba la teva llum: sobre teu clareja com l’alba la glòria del Senyor",
-    "cita": "Isaïes 60, 1"
-  },
-  {
-    "versetCA": "El Senyor és el meu pastor: no em manca res. Em fa descansar en prats deliciosos, em mena el repòs sobre l’aigua, i  allí em retorna",
-    "cita": "Salm 23, 1-2"
-  },
-  {
-    "versetCA": "Ben cert, tota la vida m’acompanyen la teva bondat i el teu amor. I viuré anys i més anys a la casa del Senyor",
-    "cita": "Salm 23, 6"
-  },
-  {
-    "versetCA": "Sigueu valents, tingueu coratge, tots els qui espereu en el Senyor",
-    "cita": "Salm 31, 25"
-  },
-  {
-    "versetCA": "Perquè per a Déu no hi ha res impossible",
-    "cita": "Lluc 1, 37"
-  },
-  {
-    "versetCA": "Escolteu germans meus estimats: ¿No és Déu qui ha escollit els pobres d’aquest món per fer-los rics en la fe i hereus del Regne que ell ha promès als qui l’estimen?",
-    "cita": "Jaume 2, 5"
-  },
-  {
-    "versetCA": "Vosaltres que en un altre temps no éreu cap poble, ara sou el poble de Déu; no éreu compadits, però ara ell s’ha compadit de vosaltres",
-    "cita": "1 Pere 2, 10"
-  },
-  {
-    "versetCA": "L’herba s’asseca i la flor cau, però la paraula del Senyor dura per sempre",
-    "cita": "1 Pere 1, 25"
-  },
-  {
-    "versetCA": "Jo sóc amb tu. Et guardaré sempre per tot arreu on aniràs i et faré tornar en aquesta terra. No t’abandonaré que no hagi complert tot el que t’he promès",
-    "cita": "Gènesi 28, 15"
-  },
-  {
-    "versetCA": "Mireu els ocells del cel: no sembren, ni seguen ni recullen en graners, i el vostre Pare celestial els alimenta. No valeu vosaltres més que no pas ells? ",
-    "cita": "Mateu 6, 26"
-  },
-  {
-    "versetCA": "Pot oblidar-se una mare del seu infantó, pot deixar d’estimar el fill de les seves entranyes? Però ni que alguna l’oblidés, jo mai no t’oblidaré. Et duc gravada a les palmes de les meves mans",
-    "cita": "Isaïes 49, 15-16"
-  },
-  {
-    "versetCA": "El Senyor m’il·lumina i em salva: qui em pot fer por? El Senyor és el mur que protegeix la meva vida: qui em pot esfereir?",
-    "cita": "Salm 27, 1"
-  },
-  {
-    "versetCA": "No tinguis por, que jo sóc amb tu . No et neguitegis, que jo sóc el teu Déu. Jo et dono força i t’ajudo, et sostinc amb la meva dreta bondadosa",
-    "cita": "Isaïes  41, 10"
-  },
-  {
-    "versetCA": "Jo sóc la llum del món. El qui em segueix no caminarà a les fosques, sinó que tindrà la llum de la vida",
-    "cita": "Joan 8, 12"
-  },
-  {
-    "versetCA": "Estima el Senyor amb tendresa i ell acomplirà els teus desitjos més profunds",
-    "cita": "Salm 37, 4"
-  },
-  {
-    "versetCA": "Jo mateix t’instruiré, t’ensenyaré el camí que has de seguir; t’aconsellaré, els meus ulls vetllaran per tu",
-    "cita": "Salm 32, 8"
-  },
-  {
-    "versetCA": "M’adormo en pau i així em fico al llit, perquè només tu, Senyor, em fas reposar segur",
-    "cita": "Salm 4, 9"
-  },
-  {
-    "versetCA": "Tingueu fe en Déu. Si algú diu a aquesta muntanya: «alça’t i tira’t al mar», sense dubtar-ho en el cor, sinó creient que es realitzarà allò que diu, us asseguro que li serà concedit",
-    "cita": "Marc 11, 23"
-  },
-  {
-    "versetCA": "Déu ha estimat tant el món, que ha donat el seu Fill únic, perquè no es perdi cap dels qui creuen en ell, sinó que tinguin vida eterna.  Déu no ha enviat el seu Fill al món perquè el món  fos condemnat, sinó per salvar-lo per mitjà d’Ell",
-    "cita": "Joan 3, 16-17"
-  },
-  {
-    "versetCA": "Jo sé quins son els meus designis sobre vosaltres, designis de pau i no de desgràcia: jo us donaré un futur   i una esperança. Ho dic jo el Senyor",
-    "cita": "Jeremies 29, 11"
-  },
-  {
-    "versetCA": "Només en Déu reposa la meva ànima, d’ell em ve la salvació. Només ell és la roca que em salva, el castell on em trobo segur",
-    "cita": "Salm 62, 1-2"
-  },
-  {
-    "versetCA": "Són camins de bondat, els del Senyor, les seves obres són obres d’amor. El Senyor és a prop dels qui l’invoquen, dels qui l’invoquen amb sinceritat",
-    "cita": "Salm 145, 17-18"
-  },
-  {
-    "versetCA": "Deixa en mans del Senyor el teu destí: Ell et mantindrà. No permetrà mai de la vida que el just sucumbeixi",
-    "cita": "Salm 55, 23"
-  },
-  {
-    "versetCA": "Les meves ovelles escolten la meva veu . Jo les conec i elles em segueixen. Jo els dono vida eterna: mai no es perdran, i ningú no me les arrancarà de les mans",
-    "cita": "Joan 10, 27-28"
-  },
-  {
-    "versetCA": "Encara som vius per l’amor del Senyor, al seva pietat no s’esgota. La renoves cada dia. Oh, quina fidelitat!  M’he dit: “El Senyor és la meva heretat”. Per això confio en ell. El Senyor és bo per al qui en ell espera, per als qui el cerquen de cor",
-    "cita": "Lamentacions 3, 22-25"
-  },
-  {
-    "versetCA": "Als qui clamen al Senyor, ell els escolta i els treu de tots els perills. El Senyor és a prop dels cors  que sofreixen, salva els homes que se senten desfets",
-    "cita": "Salm 34, 18-19"
-  },
-  {
-    "versetCA": "Déu mateix ha dit: “ No et deixaré, no t’abandonaré”. Per això podem dir amb tota confiança: “El Senyor m’ajuda, res no em fa por; els homes; què em poden fer?",
-    "cita": "Hebreus 13, 5-6"
-  },
-  {
-    "versetCA": "Perquè, si perdoneu als altres les seves faltes, el vostre Pare celestial també us perdonarà a vosaltres",
-    "cita": "Mateu 6, 14"
-  },
-  {
-    "versetCA": "Veniu a  mi tots els que esteu cansats i afeixugats, i jo us faré reposar. Accepteu el meu jou, feu-vos deixebles meus, que sóc benèvol i humil de cor, i trobareu el repòs, perquè, el meu jou és suau, i la meva càrrega, lleugera",
-    "cita": "Mateu 11, 28-30"
-  },
-  {
-    "versetCA": "Saciaré tots els qui defalleixen, satisfaré els qui pateixen escassetat",
-    "cita": "Jeremies 31, 25"
-  },
-  {
-    "versetCA": "M’has infós vida i amor, vetlles pel meu alè",
-    "cita": "Job 10, 12"
-  },
-  {
-    "versetCA": "Demaneu, i Déu us donarà; cerqueu, i trobareu; truqueu i Déu us obrirà; perquè el qui demana, rep; el qui cerca, troba, i a qui truca; li obren",
-    "cita": "Mateu 7, 7"
-  },
-  {
-    "versetCA": "Però els qui confien en el Senyor recobren les forces, alcen el vol com les àguiles, caminen sense cansar-se, corren sense defallir",
-    "cita": "Isaïes 40, 31"
-  },
-  {
-    "versetCA": "Estima als altres com a tu mateix. Qui estima, no fa cap mal als altres. Estimar és la plenitud de la Llei ",
-    "cita": "Romans 13, 10"
-  },
-  {
-    "versetCA": "Descarregueu en Déu totes les vostres preocupacions, ja que ell mateix té cura de vosaltres",
-    "cita": "1 Pere 5, 7"
-  },
-  {
-    "versetCA": "Jesús se’ls mirà i els digué: Als homes els és impossible, però Déu tot ho pot",
-    "cita": "Mateu 19, 26"
-  },
-  {
-    "versetCA": "Us deixo la pau, us dono la meva pau. Jo us dono la pau que el món no dóna. Que els vostres cors s’asserenin i no temin ",
-    "cita": "Joan 14, 27"
-  },
-  {
-    "versetCA": "Tal com el Pare m’estima, també jo us estimo a vosaltres. Manteniu-vos en el meu amor",
-    "cita": "Joan 15, 9"
-  },
-  {
-    "versetCA": "Aquest és el meu manament: que us estimeu els uns als altres tal com jo us he estimat. Ningú no té amor més gran que el que dóna la vida pels seus amics",
-    "cita": "Joan 15, 12-13"
-  },
-  {
-    "versetCA": "A vosaltres us he dit amics perquè us he fet conèixer tot allò que he sentit del meu Pare. No m’heu escollit vosaltres a mi; sóc jo qui us he escollit a vosaltres i us he confiat la missió d’anar per tot arreu i donar fruit, i un fruit que duri per sempre",
-    "cita": "Joan 15, 16"
-  },
-  {
-    "versetCA": "Igualment jo us dic que en el cel hi haurà més alegria per un sol pecador que es converteix que no pas per noranta-nou justos que no necessiten convertir-se",
-    "cita": "Lluc 15, 7"
-  },
-  {
-    "versetCA": "I que el Déu de l’esperança ompli la vostra fe d’alegria i de pau perquè vesseu d’esperança gràcies a la força de l’Esperit Sant",
-    "cita": "Romans 15, 13"
-  },
-  {
-    "versetCA": "No feu res per rivalitat ni per arrogància; amb tota humilitat, considereu els altres superiors a vosaltres mateixos. Que no miri cadascú per ell, sinó que procuri sobretot pels altres. Tingueu els mateixos sentiments que tingué Jesucrist",
-    "cita": "Filipencs 2, 3-5"
-  },
-  {
-    "versetCA": "Viviu sempre contents en el Senyor! Ho repeteixo: viviu contents! Que tothom us conegui com a gent de bon tracte",
-    "cita": "Filipencs 4,  4-5"
-  },
-  {
-    "versetCA": "El Senyor és a prop. No us inquieteu per res. En tota ocasió acudiu a la pregària i a la súplica i presenteu a Déu les vostres peticions amb accions de gràcies  ",
-    "cita": "Filipencs 4, 5-6"
-  },
-  {
-    "versetCA": "I la pau de Déu que sobrepassa tot el que podem entendre, guardarà els vostres cors i els vostres pensaments en Jesucrist",
-    "cita": "Filipencs 4, 7"
-  },
-  {
-    "versetCA": "Finalment, germans, interesseu-vos per tot allò que és autèntic, respectable, pur, amable, lloable,  tot allò que sigui virtuós i digne d’elogi",
-    "cita": "Filipencs 4, 8"
-  },
-  {
-    "versetCA": "“Deixeu que els infants  vinguin a mi. No els hi ho impediu, perquè el Regne de Déu és dels qui són com ells” ",
-    "cita": "Marc 10, 14"
-  },
-  {
-    "versetCA": "Jesús li digué: Estima el Senyor, el teu Déu, amb tot el cor, amb tota l’ànima, amb tot el pensament. Aquest manament és el més gran i el primer. El segon li és semblant: Estima als altres com a tu mateix",
-    "cita": "Mateu 22, 37-39"
-  },
-  {
-    "versetCA": "Consoleu, consoleu el meu poble diu el vostre Déu. Parleu al cor de Jerusalem i anuncieu-li que s’ha acabat la seva servitud, que li ha estat perdonada la culpa",
-    "cita": "Isaïes 40, 1-2"
-  },
-  {
-    "versetCA": "Però jo celebraré el Senyor, feliç de veure que Déu em salva. El Senyor-Déu és la meva força, fa els meus peus lleugers com els dels cérvols i m’encamina, invencible, cap als cims",
-    "cita": "Habacuc 3, 18-19"
-  },
-  {
     "versetCA": "Les proves que heu hagut de suportar no eren sobre humanes; Déu és fidel i no permetrà que sigueu temptats per damunt de les vostres forces. I junt amb la prova us donarà els mitjà de sortir-ne i poder-la suportar",
-    "cita": "1Corintis 10, 13"
-  },
-  {
-    "versetCA": "Jesús li respon: Jo sóc el camí, la veritat i la vida. Ningú arriba al Pare si no és per mi. Si m’heu conegut a mi, també coneixereu el meu pare",
-    "cita": "Joan 14, 6-7"
+    "cita": "1Co.10.13"
   },
   {
     "versetCA": "El qui estima és pacient, és bondadós; el qui estima no té enveja, no és presumit ni orgullós; no és groller ni egoista, no s’irrita ni es venja; no s’alegra de la mentida, sinó que troba el goig en la veritat; tot ho excusa, tot ho creu, tot ho espera, tot ho suporta",
-    "cita": "1 Corintis 13, 4-7"
+    "cita": "1Co.13.4-7"
+  },
+  {
+    "versetCA": "Però, tal com diu l'Escriptura: Cap ull no ha vist mai, ni cap orella ha sentit, ni el cor de l'home somia allò que Déu té preparat per als qui l'estimen",
+    "cita": "1Co.2.9"
+  },
+  {
+    "versetCA": "Us invoco, Senyor, i sé que em respondreu. Us invoco, Déu meu, escolteu el que us demano! A vós elevo la meva ànima, Senyor; Déu meu, en vós confio!",
+    "cita": "1Cr.22.19"
+  },
+  {
+    "versetCA": "Déu és amor; el qui viu en l’amor està en Déu, i Déu està en ell ",
+    "cita": "1Jn.4.16"
+  },
+  {
+    "versetCA": "Estimeu-vos els uns als altres intensament i amb un cor net",
+    "cita": "1Pe.1.22"
+  },
+  {
+    "versetCA": "L’herba s’asseca i la flor cau, però la paraula del Senyor dura per sempre",
+    "cita": "1Pe.1.25"
+  },
+  {
+    "versetCA": "Vosaltres que en un altre temps no éreu cap poble, ara sou el poble de Déu; no éreu compadits, però ara ell s’ha compadit de vosaltres",
+    "cita": "1Pe.2.10"
   },
   {
     "versetCA": "Si us preocupeu de fer el bé, qui us podrà fer cap mal? Més encara, si heu de sofrir pel fet de ser justos, feliços de vosaltres!",
-    "cita": "1 Pere 3, 13"
+    "cita": "1Pe.3.13"
   },
   {
     "versetCA": "Per damunt de tot, tingueu un amor intens entre vosaltres, perquè l’amor cobreix una multitud de pecats. Practiqueu mútuament l’hospitalitat sense queixar-vos. Poseu-vos els uns al servei dels altres, cadascú segons els dons que ha rebut",
-    "cita": "1 Pere 4, 8-10"
-  },
-  {
-    "versetCA": "El Senyor s’ha enamorat de vosaltres i us ha escollit d’entre tots els pobles, no perquè fóssiu un poble més nombrós que els altres, quan de fet sou el més petit de tots; sinó perquè us estima i es manté fidel al jurament que havia fet als vostres pares",
-    "cita": "Deuteronomi 7, 7-8"
-  },
-  {
-    "versetCA": "Però Déu, que  és ric en misericòrdia, ens ha estimat amb un amor tan gran, que ens ha donat la vida juntament amb Crist, a nosaltres que érem morts pels nostres pecats: és per gràcia que heu estat salvats! ",
-    "cita": "Efesis 2, 4-5"
-  },
-  {
-    "versetCA": "Demaneu, i Déu us donarà; cerqueu, i trobareu; truqueu i Déu us obrirà; perquè el qui demana, rep; el qui cerca, troba, i a qui truca; li obren.",
-    "cita": "Mateu 7, 7"
-  },
-  {
-    "versetCA": "Veniu a mi tots els que esteu cansats i afeixugats, i jo us faré reposar. Accepteu el meu jou, feu-vos deixebles meus, que sóc benèvol i humil de cor, i trobareu el repòs, perquè, el meu jou és suau, i la meva càrrega, lleugera.",
-    "cita": "Mateu 11, 28-30"
-  },
-  {
-    "versetCA": "Tingueu fe en Déu. Si algú diu a aquesta muntanya: “alça’t i tira’t al mar”, sense dubtar-ho en el cor, sinó creient que es realitzarà allò que diu, us asseguro que li serà concedit. ",
-    "cita": "Marc 11, 23"
-  },
-  {
-    "versetCA": "Jo sóc amb tu. Et guardaré sempre per tot arreu on aniràs i et faré tornar en  aquesta terra. No t’abandonaré que no hagi complert tot el que t’he promès. ",
-    "cita": "Gènesis 28, 15"
-  },
-  {
-    "versetCA": "Tu, quan preguis, entra a la cambra més retirada, tanca-t'hi amb pany i clau i prega al teu Pare, present en els llocs més amagats, i el teu Pare, que veu el que és amagat, t'ho recompensarà",
-    "cita": "Mateu 6, 6"
-  },
-  {
-    "versetCA": "Us asseguro que , si dos de vosaltres aquí a la terra es posen d'acord per a demanar alguna cosa, el meu Pare del cel els la concedirà; perquè on n'hi ha dos o tres de reunits en el meu nom, jo sóc allí enmig d'ells",
-    "cita": "Mt 18, 19-20"
-  },
-  {
-    "versetCA": "Aquest és el meu manament: que us estimeu els uns als altres tal com jo us he estimat. Ningú no té amor més gran que el que dóna la vida pels seus amics. ",
-    "cita": "Joan 15, 12-13"
-  },
-  {
-    "versetCA": "A vosaltres us he dit amics perquè us he fet conèixer tot allò que he sentit del meu Pare. No m’heu escollit vosaltres a mi; sóc jo qui us he escollit a vosaltres i us he confiat la missió d’anar per tot arreu i donar fruit, i un fruit que duri per sempre.",
-    "cita": "Joan 15, 16"
+    "cita": "1Pe.4.8-10"
   },
   {
     "versetCA": "Humilieu-vos i sotmeteu-vos a la mà poderosa de Déu, i ell us enaltirà en el temps que té fixat. Descarregueu en ell totes les vostres preocupacions, ja que ell mateix té cura de vosaltres",
-    "cita": "1 Pere 5, 6-7"
+    "cita": "1Pe.5.6-7"
   },
   {
-    "versetCA": "Fins i tot en les tribulacions trobem motiu de gloriar-nos, perquè sabem que la tribulació engendra paciència; la paciència, virtut provada; la virtut provada, esperança ",
-    "cita": "Rm 5, 3"
+    "versetCA": "Descarregueu en Déu totes les vostres preocupacions, ja que ell mateix té cura de vosaltres",
+    "cita": "1Pe.5.7"
   },
   {
-    "versetCA": "No feu res per rivalitat ni per arrogància; amb tota humilitat, considereu els altres superiors a vosaltres mateixos. Que no miri cadascú per ell, sinó que procuri sobretot pels altres. Tingueu els mateixos sentiments que tingué Jesucrist. ",
-    "cita": "Filipencs 2, 3-5"
+    "versetCA": "Però el Senyor digué a Samuel: –No et fixis en el seu aspecte ni en la seva estatura. L'he descartat. El que val no és allò que l'home veu: l'home veu l'aparença, el Senyor veu el fons del cor.",
+    "cita": "1Sa.16.7"
   },
   {
-    "versetCA": "El Senyor és a prop. No us inquieteu per res. En tota ocasió acudiu a la pregària i a la súplica i presenteu a Déu les vostres peticions amb accions de gràcies. ",
-    "cita": "Filipencs 4, 5-6"
+    "versetCA": "Tota la teva exhortació ha de conduir a l'amor que neix d'un cor net, d'una consciència recta i d'una fe sincera.",
+    "cita": "1Tm.1.5"
   },
   {
-    "versetCA": "No m'heu escollit vosaltres a mi; sóc jo qui us he escollit a vosaltres i us he confiat la missió d'anar pertot arreu i donar fruit, i un fruit que duri per sempre. I tot allò que demanareu al Pare en nom meu, ell us ho concedirà. Això us mano: que us estimeu els uns als altres",
-    "cita": "Jn.15, 16-17"
+    "versetCA": "On hi ha l’Esperit del Senyor hi ha la llibertat",
+    "cita": "2Co.3.17"
   },
   {
-    "versetCA": "Estima el Senyor, el teu Déu, amb tot el cor, amb tota l’ànima, amb tot el pensament. Aquest manament és el més gran i el primer. El segon li és semblant: Estima als altres com a tu mateix. ",
-    "cita": "Mateu 22, 37-39"
+    "versetCA": "Els sofriments que ara passem són lleugers i d’un moment, però van acumulant un pes incomparablement de glòria, que durarà per sempre",
+    "cita": "2Co.4.17"
   },
   {
-    "versetCA": "Les proves que heu hagut de suportar no eren sobre humanes; Déu és fidel i no permetrà que sigueu temptats per damunt de les vostres forces. I junt amb la prova us donarà els mitjà de sortir-ne i poder-la suportar. ",
-    "cita": "1Corintis 10, 13"
+    "versetCA": "La multitud dels creients tenia un sol cor i una sola ànima, i cap d'ells no considerava com a propis els béns que posseïa, sinó que tot estava al servei de tots",
+    "cita": "Ac.4.32"
   },
   {
-    "versetCA": "El qui estima és pacient, és bondadós; el qui estima no té enveja, no és presumit ni orgullós; no és groller ni egoista, no s’irrita ni es venja; no s’alegra de la mentida, sinó que troba el goig en la veritat; tot ho excusa, tot ho creu, tot ho espera, tot ho suporta. ",
-    "cita": "1 Corintis 13, 4-7"
-  },
-  {
-    "versetCA": "Per damunt de tot, tingueu un amor intens entre vosaltres, perquè l’amor cobreix una multitud de pecats. Practiqueu mútuament l’hospitalitat sense queixar-vos. Poseu-vos els uns al servei dels altres, cadascú segons els dons que ha rebut. ",
-    "cita": "1 Pere 4, 8-10"
-  },
-  {
-    "versetCA": "Deixa en mans del Senyor el teu destí: Ell et mantindrà. No permetrà mai de la vida que el just sucumbeixi. ",
-    "cita": "Salm 55, 23"
-  },
-  {
-    "versetCA": "Jo sé quins son els meus designis sobre vosaltres, designis de pau i no de desgràcia: jo us donaré un futur i una esperança. Ho dic jo el Senyor. ",
-    "cita": "Jeremies 29, 11"
-  },
-  {
-    "versetCA": "Senyor, ajuda’m a seguir aquest camí que tu tens guardat per a mi i no dubtar. ",
-    "cita": "Salm 32, 8"
-  },
-  {
-    "versetCA": "Jo sóc la llum del món. El qui em segueix no caminarà a les fosques, sinó que tindrà la llum de la vida. ",
-    "cita": "Joan 8, 12"
-  },
-  {
-    "versetCA": "Pot oblidar-se una mare del seu infantó, pot deixar d’estimar el fill de les seves entranyes? Però ni que alguna l’oblidés, jo mai no t’oblidaré. Et duc gravada a les palmes de les meves mans. ",
-    "cita": "Isaïes 49, 15-16"
-  },
-  {
-    "versetCA": "Els sofriments que ara passem són lleugers i d’un moment, però van acumulant un pes incomparablement de glòria, que durarà per sempre. ",
-    "cita": "2 Corintis 4, 17"
-  },
-  {
-    "versetCA": "Però a vosaltres que escolteu, jo us dic: Estimeu els vostres enemics, feu bé als qui us odien, beneïu els qui us maleeixen, pregueu pels qui us calumnien",
-    "cita": "Lluc 6 27-29"
-  },
-  {
-    "versetCA": "Jo tu ordeno: Siguis fort i valent! No tinguis por i no et desanimis! Perquè el Senyor el teu Déu t’acompanyarà allà on vagis. ",
-    "cita": "Josuè 1, 9"
-  },
-  {
-    "versetCA": "El Senyor és el meu pastor: no em manca res. Em fa descansar en prats deliciosos, em mena el repòs sobre l’aigua, i allí em retorna. ",
-    "cita": "Salm 23, 1-2"
-  },
-  {
-    "versetCA": "Jo sóc amb tu. Et guardaré sempre per tot arreu no aniràs i et faré tornar en aquesta terra. No t’abandonaré que no hagi complert tot el que t’he promès. ",
-    "cita": "Gènesis 28, 15"
-  },
-  {
-    "versetCA": "Pot oblidar-se una mare del seu infantó, pot deixar d’estimar el fill de les seves entranyes? Però ni que alguna l’oblidés, jo mai no t’oblidaré. Et duc gravada a les palmes de les meves mans. ",
-    "cita": "Isaïes 49, 15-16"
-  },
-  {
-    "versetCA": "No tinguis por, que jo sóc amb tu . No et neguitegis, que jo sóc el teu Déu. Jo et dono força i t’ajudo, et sostinc amb la meva dreta bondadosa ",
-    "cita": "Isaïes 41, 10"
-  },
-  {
-    "versetCA": "Estima el Senyor amb tendresa i ell acomplirà els teus desitjos més profunds. ",
-    "cita": "Salm 37, 4"
-  },
-  {
-    "versetCA": "Deixa en mans del Senyor el teu destí: Ell et mantindrà. No permetrà mai de la vida que el just sucumbeixi. ",
-    "cita": "Salm 55, 23"
-  },
-  {
-    "versetCA": "Als qui clamen al Senyor, ell els escolta i els treu de tots els perills. El Senyor és a prop dels cors que sofreixen, salva els homes que se senten desfets. ",
-    "cita": "Salm 34, 18-19"
-  },
-  {
-    "versetCA": "Si us preocupeu de fer el bé, qui us podrà fer cap mal? Més encara, si heu de sofrir pel fet de ser justos, feliços de vosaltres! ",
-    "cita": "1 Pere 3, 13"
-  },
-  {
-    "versetCA": "On hi ha l’Esperit del Senyor hi ha la llibertat ",
-    "cita": "2 Corintis 3, 17"
-  },
-  {
-    "versetCA": "Els sofriments que ara passem són lleugers i d’un moment, però van acumulant un pes incomparablement de glòria, que durarà per sempre. ",
-    "cita": "2 Corintis 4, 17"
-  },
-  {
-    "versetCA": "El Senyor és compassiu i benigne, lent per al càstig i ric en l’amor. ",
-    "cita": "Salm 103, 8"
-  },
-  {
-    "versetCA": "Però l’amor del Senyor pels seus fidels és de sempre i dura per sempre. ",
-    "cita": "Salm 103, 17"
-  },
-  { "versetCA": "Confio en Déu i no tinc por. ", "cita": "Salm 55, 11" },
-  {
-    "versetCA": "Els mars profunds no podran apagar l’amor, ni ofegar-lo les fonts dels oceans.  ",
-    "cita": "Càntic dels càntic 8, 7"
+    "versetCA": "Sigui quin sigui el vostre treball, feu-lo de cor",
+    "cita": "Col.3.23"
   },
   {
     "versetCA": "Aixeca’t amiga meva, bonica meva i vine! Mira, l’hivern ja ha passat, la pluja s’ha esvaït, ja se n’ha anat. Les flors despunten a la terra, ja arriba el temps d’esbrotar. ",
-    "cita": "Càntic dels càntic  2, 10-12"
+    "cita": "Ct.2.10-12"
   },
   {
-    "versetCA": "Posa’m com un segell sobre el teu cor, com un segell sobre el teu braç, perquè l’amor és fort com la mort. ",
-    "cita": "Càntic dels càntics 8, 6"
+    "versetCA": "Posa’m com un segell sobre el teu cor, com un segell sobre el teu braç, perquè l’amor és fort com la mort",
+    "cita": "Ct.8.6"
   },
   {
-    "versetCA": "Igualment jo us dic que en el cel i haurà més alegria per un sol pecador que es converteix que no pas per noranta-nou justos que no necessiten conversió. ",
-    "cita": "Lluc 15, 7"
+    "versetCA": "Els mars profunds no podran apagar l’amor, ni ofegar-lo les fonts dels oceans.  ",
+    "cita": "Ct.8.7"
   },
   {
-    "versetCA": "Fill, tu sempre ets amb mi, i tot el que és meu és teu.",
-    "cita": "Lluc 15,  31"
+    "versetCA": "Quan en una de les ciutats del país que el Senyor, el teu Déu, et dóna, hi hagi un pobre entre els teus germans, no endureixis el cor, no tanquis la mà al teu germà pobre.",
+    "cita": "Dt.15.7"
   },
   {
-    "versetCA": "Aixeca’t i vés-te’n: la teva fe t’ha salvat. ",
-    "cita": "Lluc 17, 19"
+    "versetCA": "Llavors, allà mateix, cercaràs el Senyor, el teu Déu. I si el cerques amb tot el cor i amb tota l'ànima, el trobaràs.",
+    "cita": "Dt.4.29"
   },
   {
-    "versetCA": "Feliços els pobres en l’esperit, d’ells és el Regne del cel. ",
-    "cita": "Mateu 5, 3"
+    "versetCA": "El Senyor s’ha enamorat de vosaltres i us ha escollit d’entre tots els pobles, no perquè fóssiu un poble més nombrós que els altres, quan de fet sou el més petit de tots; sinó perquè us estima i es manté fidel al jurament que havia fet als vostres pares",
+    "cita": "Dt.7.7-8"
   },
   {
-    "versetCA": "Feliços els qui ploren, Déu els consolarà. ",
-    "cita": "Mateu 5, 4"
+    "versetCA": "Li demano que il·lumini la mirada interior del vostre cor perquè conegueu a quina esperança ens ha cridat",
+    "cita": "Ef.1.18"
   },
   {
-    "versetCA": "Coneixereu la veritat i la veritat us farà lliures ",
-    "cita": "Lluc 8, 32"
-  },
-  {
-    "versetCA": "Jo tu ordeno: Siguis fort i valent! No tinguis por i no et desanimis!  Perquè el Senyor el teu Déu t’acompanyarà allà on vagis. ",
-    "cita": "Josuè 1, 9"
-  },
-  {
-    "versetCA": "Així, doncs, t’asseguro que els seus molts pecats li han estat perdonats: per això ella estima molt. Aquell a qui poc és perdonat, estima poc. ",
-    "cita": "Lluc 7, 47"
-  },
-  {
-    "versetCA": "Dona, on són? ¿Ningú no t'ha condemnat? Ella va respondre: Ningú, Senyor. Jesús digué: Jo tampoc no et condemno. Vés-te'n, i d'ara endavant no pequis més.  ",
-    "cita": "Joan 8, 11"
-  },
-  {
-    "versetCA": "El Senyor té pietat de Sió, té pietat de totes les seves ruïnes: convertirà aquest desert en paradís, aquesta estepa en el seu jardí. L’ompliran crits de joia i d’alegria, accions de gràcies, músiques i cants. ",
-    "cita": "Isaïes 51, 3"
-  },
-  {
-    "versetCA": "I ara et torno a prendre amb un amor immens. Ara t’estimo amb un amor etern. T’ho diu el Senyor, el qui t’allibera. ",
-    "cita": "Isaïes 54 7-8"
-  },
-  {
-    "versetCA": "Alça’t radiant, Jerusalem, que arriba la teva llum: sobre teu clareja com l’alba la glòria del Senyor. ",
-    "cita": "Isaïes 60, 1"
-  },
-  {
-    "versetCA": "El Senyor és el meu pastor: no em manca res. Em fa descansar en prats deliciosos, em mena el repòs sobre l’aigua, i allí em retorna. ",
-    "cita": "Salm 23, 1-2"
-  },
-  {
-    "versetCA": "Ben cert, tota la vida m’acompanyen la teva bondat i el teu amor. I viuré anys i més anys a la casa del Senyor. ",
-    "cita": "Salm 23, 6"
-  },
-  {
-    "versetCA": "Sigueu valents, tingueu coratge, tots els qui espereu en el Senyor. ",
-    "cita": "Salm 31, 25"
-  },
-  {
-    "versetCA": "Perquè per a Déu no hi ha res impossible.",
-    "cita": "Lluc 1, 37"
-  },
-  {
-    "versetCA": "Escolteu germans meus estimats: ¿No és Déu qui ha escollit els pobres d’aquest món per fer-los rics en la fe i hereus del Regne que ell ha promès als qui l’estimen? ",
-    "cita": "Jaume 2, 5"
-  },
-  {
-    "versetCA": "Vosaltres que en un altre temps no éreu cap poble, ara sou el poble de Déu; no éreu compadits, però ara ell s’ha compadit de vosaltres ",
-    "cita": "1 Pere 2, 10"
-  },
-  {
-    "versetCA": "L’herba s’asseca i la flor cau, però la paraula del Senyor dura per sempre. ",
-    "cita": "1 Pere 1, 25"
-  },
-  {
-    "versetCA": "Jo sóc amb tu. Et guardaré sempre per tot arreu no aniràs i et faré tornar ena questa terra. No t’abandonaré que no hagi complert tot el que t’he promès. ",
-    "cita": "Gènesis 28, 15"
-  },
-  {
-    "versetCA": "Mireu els ocells del cel: no sembren, ni seguen ni recullen en graners, i el vostre Pare celestial els alimenta. No valeu vosaltres més que no pas ells? ",
-    "cita": "Mateu 6, 26"
-  },
-  {
-    "versetCA": "Pot oblidar-se una mare del seu infantó, pot deixar d’estimar el fill de les seves entranyes? Però ni que alguna l’oblidés, jo mai no t’oblidaré. Et duc gravada a les palmes de les meves mans. ",
-    "cita": "Isaïes 49, 15-16"
-  },
-  {
-    "versetCA": "El Senyor m’il·lumina i em salva: qui em pot fer por? El Senyor és el mur que protegeix la meva vida: qui em pot esfereir? ",
-    "cita": "Salm 27, 1"
-  },
-  {
-    "versetCA": "No tinguis por, que jo sóc amb tu . No et neguitegis, que jo sóc el teu Déu. Jo et dono força i t’ajudo, et sostinc amb la meva dreta bondadosa ",
-    "cita": "Isaïes  41, 10"
-  },
-  {
-    "versetCA": "Jo sóc la llum del món. El qui em segueix no caminarà a les fosques, sinó que tindrà la llum de la vida. ",
-    "cita": "Joan 8, 12"
-  },
-  {
-    "versetCA": "Estima el Senyor amb tendresa i ell acomplirà els teus desitjos més profunds. ",
-    "cita": "Salm 37, 4"
-  },
-  {
-    "versetCA": "Senyor, ajuda’m a seguir aquest camí que tu tens guardat per a mi i no dubtar.",
-    "cita": "Salm 32, 8"
-  },
-  {
-    "versetCA": "M’adormo en pau i així em fico al llit perquè només tu Senyor, em fas reposar segur. ",
-    "cita": "Salm 4, 9"
-  },
-  {
-    "versetCA": "Tingueu fe en Déu. Si algú diu a aquesta muntanya: “alça’t i tira’t al mar”, sense dubtar-ho en el cor, sinó creient que es realitzarà allò que diu, us asseguro que li serà concedit.",
-    "cita": "Marc 11, 23"
-  },
-  {
-    "versetCA": "Déu ha estimat tant el món, que ha donat el seu Fill únic, perquè no es perdi cap dels qui creuen en ell, sinó que tinguin vida eterna.  Déu no ha enviat el seu Fill al món perquè el món  fos condemnat, sinó per salvar-lo per mitjà d’Ell. ",
-    "cita": "Joan 3, 16-17"
-  },
-  {
-    "versetCA": "Jo sé quins son els meus designis sobre vosaltres, designis de pau i no de desgràcia: jo us donaré un futur i una esperança. Ho dic jo el Senyor. ",
-    "cita": "Jeremies 29, 11"
-  },
-  {
-    "versetCA": "Només en Déu reposa la meva ànima, d’ell em ve la salvació. Només ell és la roca que em salva, el castell on em trobo segur. ",
-    "cita": "Salm 62, 1-2"
-  },
-  {
-    "versetCA": "Són camins de bondat, els del Senyor, les seves obres són obres d’amor. El Senyor és a prop dels qui l’invoquen, dels qui l’invoquen amb sinceritat.",
-    "cita": "Salm 145, 17-18"
-  },
-  {
-    "versetCA": "Deixa en mans del Senyor el teu destí: Ell et mantindrà. No permetrà mai de la vida que el just sucumbeixi. ",
-    "cita": "Salm 55, 23"
-  },
-  {
-    "versetCA": "Les meves ovelles escolten la meva veu . Jo les conec i elles em segueixen. Jo els dono vida eterna: mai no es perdran, i ningú no me les arrancarà de les mans. ",
-    "cita": "Joan 10, 27-28"
-  },
-  {
-    "versetCA": "Encara som vius per l’amor del Senyor, al seva pietat no s’esgota. La renoves cada dia. Oh, quina fidelitat!  M’he dit: “El Senyor és la meva heretat”. Per això confio en ell. El Senyor és bo per al qui en ell espera, per als qui el cerquen de cor. ",
-    "cita": "Lamentacions 3, 22-25"
-  },
-  {
-    "versetCA": "Als qui clamen al Senyor, ell els escolta i els treu de tots els perills. El Senyor és a prop dels cors que sofreixen, salva els homes que se senten desfets. ",
-    "cita": "Salm 34, 18-19"
-  },
-  {
-    "versetCA": "Déu mateix ha dit: “ No et deixaré, no t’abandonaré”. Per això podem dir amb tota confiança: “El Senyor m’ajuda, res no em fa por; els homes; què em poden fer?” ",
-    "cita": "Hebreus 13, 5-6"
-  },
-  {
-    "versetCA": "Perquè, si perdoneu als altres les seves faltes, el vostre Pare celestial també us perdonarà a vosaltres. ",
-    "cita": "Mateu 6, 14"
-  },
-  {
-    "versetCA": "Veniu a  mi tots els que esteu cansats i afeixugats, i jo us faré reposar. Accepteu el meu jou, feu-vos deixebles meus, que sóc benèvol i humil de cor, i trobareu el repòs, perquè, el meu jou és suau, i la meva càrrega, lleugera. ",
-    "cita": "Mateu 11, 28-30"
-  },
-  {
-    "versetCA": "Saciaré tots els qui defalleixen, satisfaré els qui pateixen escassetat. ",
-    "cita": "Jeremies 31, 25"
-  },
-  {
-    "versetCA": "M’has infós vida i amor, vetlles pel meu alè.",
-    "cita": "Job 10, 12"
-  },
-  {
-    "versetCA": "Demaneu, i Déu us donarà; cerqueu, i trobareu; truqueu i Déu us obrirà; perquè el qui demana, rep; el qui cerca, troba, i a qui truca; li obren. ",
-    "cita": "Mateu 7, 7"
-  },
-  {
-    "versetCA": "Però els qui confien en el Senyor recobren les forces, alcen el vol com les àguiles, caminen sense cansar-se, corren sense defallir.",
-    "cita": "Isaïes 40, 31"
-  },
-  {
-    "versetCA": "Estima als altres com a tu mateix. Qui estima, no fa cap mal als altres. Estimar és la plenitud de la Llei. ",
-    "cita": "Romans 13, 10"
-  },
-  {
-    "versetCA": "Descarregueu en Déu totes les vostres preocupacions, ja que ell mateix té cura de vosaltres. ",
-    "cita": "1 Pere 5, 7"
-  },
-  {
-    "versetCA": "Jesús se’ls mirà i els digué: Als homes els és impossible, però Déu tot ho pot. ",
-    "cita": "Mateu 19, 26"
-  },
-  {
-    "versetCA": "Us deixo la pau, us dono la meva pau. Jo us dono la pau que el món no dóna. Que els vostres cors s’asserenin i no temin. ",
-    "cita": "Joan 14, 27"
-  },
-  {
-    "versetCA": "Tal com el Pare m’estima, també jo us estimo a vosaltres. Manteniu-vos en el meu amor.  ",
-    "cita": "Joan 15, 9"
-  },
-  {
-    "versetCA": "Aquest és el meu manament: que us estimeu els uns als altres tal com jo us he estimat. Ningú no té amor més gran que el que dóna la vida pels seus amics. ",
-    "cita": "Joan 15, 12-13"
-  },
-  {
-    "versetCA": "A vosaltres us he dit amics perquè us he fet conèixer tot allò que he sentit del meu Pare. No m’heu escollit vosaltres a mi; sóc jo qui us he escollit a vosaltres i us he confiat la missió d’anar per tot arreu i donar fruit, i un fruit que duri per sempre. ",
-    "cita": "Joan 15, 16"
-  },
-  {
-    "versetCA": "Igualment jo us dic que en el cel hi haurà més alegria per un sol pecador que es converteix que no pas per noranta-nou justos que no necessiten convertir-se. ",
-    "cita": "Lluc 15, 7"
-  },
-  {
-    "versetCA": "I que el Déu de l’esperança ompli la vostra fe d’alegria i de pau perquè vesseu d’esperança gràcies a la força de l’Esperit Sant.",
-    "cita": "Romans 15, 13"
-  },
-  {
-    "versetCA": "No feu res per rivalitat ni per arrogància; amb tota humilitat, considereu els altres superiors a vosaltres mateixos. Que no miri cadascú per ell, sinó que procuri sobretot pels altres. Tingueu els mateixos sentiments que tingué Jesucrist. ",
-    "cita": "Filipencs 2, 3-5"
-  },
-  {
-    "versetCA": "Viviu sempre contents en el Senyor! Ho repeteixo: viviu contents! Que tothom us conegui com a gent de bon tracte.  ",
-    "cita": "Filipencs 4,  4-5"
-  },
-  {
-    "versetCA": "El Senyor és a prop. No us inquieteu per res. En tota ocasió acudiu a la pregària i a la súplica i presenteu a Déu les vostres peticions amb accions de gràcies.  ",
-    "cita": "Filipencs 4, 5-6"
-  },
-  {
-    "versetCA": "I la pau de Déu que sobrepassa tot el que podem entendre, guardarà els vostres cors i els vostres pensaments en Jesucrist. ",
-    "cita": "Filipencs 4, 7"
-  },
-  {
-    "versetCA": "Finalment, germans, interesseu-vos per tot allò que és autèntic, respectable, pur, amable, lloable, tot allò que sigui virtuós i digne d’elogi. ",
-    "cita": "Filipencs 4, 8"
-  },
-  {
-    "versetCA": "Deixeu que els infants  vinguin a mi. No els hi ho impediu, perquè el Regne de Déu és dels qui són com ells. ",
-    "cita": "Marc 10, 14"
-  },
-  {
-    "versetCA": "Jesús li digué: Estima el Senyor, el teu Déu, amb tot el cor, amb tota l’ànima, amb tot el pensament. Aquest manament és el més gran i el primer. El segon li és semblant: Estima als altres com a tu mateix.",
-    "cita": "Mateu 22, 37-39"
-  },
-  {
-    "versetCA": "Consoleu, consoleu el meu poble” diu el vostre Déu. “Parleu al cor” de Jerusalem i anuncieu-li que s’ha acabat la seva servitud, que li ha estat perdonada la culpa. ",
-    "cita": "Isaïes 40, 1-2"
-  },
-  {
-    "versetCA": "Cert que la figuera no té fruit ni veiem la collita dels ceps; l’olivera no ha pensant ha produir i els camps no donen res per a menjar; no queca cap Però jo celebraré el Senyor, feliç de veure que Déu em salva. El SenyorDéu és la meva força, fa els meus peus lleugers com els dels cérvols i m’encamina, invencible, cap als cims. ",
-    "cita": "Habacuc 3, 18-19"
-  },
-  {
-    "versetCA": "Les proves que heu hagut de suportar no eren sobre humanes; Déu és fidel i no permetrà que sigueu temptats per damunt de les vostres forces. I junt amb la prova us donarà els mitjà de sortir-ne i poder-la suportar.",
-    "cita": "1Corintis 10, 13"
-  },
-  {
-    "versetCA": "Jesús li respon: Jo sóc el camí, la veritat i la vida. Ningú arriba al Pare si no és per mi. Si m’heu conegut a mi, també coneixereu el meu pare.",
-    "cita": "Joan 14, 6-7"
-  },
-  {
-    "versetCA": "El qui estima és pacient, és bondadós; el qui estima no té enveja, no és presumit ni orgullós; no és groller ni egoista, no s’irrita ni es venja; no s’alegra de la mentida, sinó que troba el goig en la veritat; tot ho excusa, tot ho creu, tot ho espera, tot ho suporta.",
-    "cita": "1 Corintis 13, 4-7"
-  },
-  {
-    "versetCA": "Si us preocupeu de fer el bé, qui us podrà fer cap mal? Més encara, si heu de sofrir pel fet de ser justos, feliços de vosaltres! ",
-    "cita": "1 Pere 3, 13"
-  },
-  {
-    "versetCA": "Per damunt de tot, tingueu un amor intens entre vosaltres, perquè l’amor cobreix una multitud de pecats. Practiqueu mútuament l’hospitalitat sense queixar-vos. Poseu-vos els uns al servei dels altres, cadascú segons els dons que ha rebut. ",
-    "cita": "1 Pere 4, 8-10"
-  },
-  {
-    "versetCA": "El Senyor s’ha enamorat de vosaltres i us ha escollit d’entre tots els pobles, no perquè fóssiu un poble més nombrós que els altres, quan de fet sou el més petit de tots; sinó perquè us estima i es manté fidel al jurament que havia fet als vostres pares. ",
-    "cita": "Deuteronomi 7, 7-8"
+    "versetCA": "Però Déu, que  és ric en misericòrdia, ens ha estimat amb un amor tan gran, que ens ha donat la vida juntament amb Crist, a nosaltres que érem morts pels nostres pecats: és per gràcia que heu estat salvats! ",
+    "cita": "Ef.2.4-5"
   },
   {
     "versetCA": "Però Déu, que  és ric en misericòrdia, ens ha estimat amb un amor tan gran, que ens ha donat la vida juntament amb Crist, a nosaltres que érem morts pels nostres pecats: és per gràcia que heu estat salvats. ",
-    "cita": "Efesis 2, 45"
+    "cita": "Ef.2.45"
+  },
+  {
+    "versetCA": "Digueu tots junts salms, himnes i càntics de l'Esperit, cantant al Senyor i lloant-lo en el vostre cor",
+    "cita": "Ef.5.19"
+  },
+  {
+    "versetCA": "Jo els donaré un sol cor i els infondré un esperit nou; trauré d'ells aquest cor de pedra i els en donaré un de carn.",
+    "cita": "Ez.11.19"
+  },
+  {
+    "versetCA": "Us donaré un cor nou i posaré un esperit nou dins vostre; trauré de vosaltres aquest cor de pedra i us en donaré un de carn.",
+    "cita": "Ez.36.26"
+  },
+  {
+    "versetCA": "No feu res per rivalitat ni per arrogància; amb tota humilitat, considereu els altres superiors a vosaltres mateixos. Que no miri cadascú per ell, sinó que procuri sobretot pels altres. Tingueu els mateixos sentiments que tingué Jesucrist",
+    "cita": "Fl.2.3-5"
+  },
+  {
+    "versetCA": "Viviu sempre contents en el Senyor! Ho repeteixo: viviu contents! Que tothom us conegui com a gent de bon tracte",
+    "cita": "Fl.4.4-5"
+  },
+  {
+    "versetCA": "El Senyor és a prop. No us inquieteu per res. En tota ocasió acudiu a la pregària i a la súplica i presenteu a Déu les vostres peticions amb accions de gràcies  ",
+    "cita": "Fl.4.5-6"
+  },
+  {
+    "versetCA": "I la pau de Déu que sobrepassa tot el que podem entendre, guardarà els vostres cors i els vostres pensaments en Jesucrist",
+    "cita": "Fl.4.7"
+  },
+  {
+    "versetCA": "Finalment, germans, interesseu-vos per tot allò que és autèntic, respectable, pur, amable, lloable,  tot allò que sigui virtuós i digne d’elogi",
+    "cita": "Fl.4.8"
+  },
+  {
+    "versetCA": "Jo sóc amb tu. Et guardaré sempre per tot arreu on aniràs i et faré tornar en aquesta terra. No t’abandonaré que no hagi complert tot el que t’he promès",
+    "cita": "Gn.28.15"
+  },
+  {
+    "versetCA": "Però jo celebraré el Senyor, feliç de veure que Déu em salva. El Senyor-Déu és la meva força, fa els meus peus lleugers com els dels cérvols i m’encamina, invencible, cap als cims",
+    "cita": "Ha.3.18-19"
+  },
+  {
+    "versetCA": "Déu mateix ha dit: “ No et deixaré, no t’abandonaré”. Per això podem dir amb tota confiança: “El Senyor m’ajuda, res no em fa por; els homes; què em poden fer?",
+    "cita": "He.13.5-6"
+  },
+  {
+    "versetCA": "La paraula de Déu és viva i eficaç. És més penetrant que una espasa de dos talls: arriba a destriar l'ànima i l'esperit, les articulacions i el moll dels ossos; discerneix les intencions i els pensaments del cor.",
+    "cita": "He.4.12"
+  },
+  {
+    "versetCA": "Aquesta és l'aliança que jo portaré amb el casal d'Israel després d'aquells dies, diu el Senyor: Posaré les meves lleis en el seu interior, les escriuré en el seu cor. Llavors jo seré el seu Déu i ells seran el meu poble.",
+    "cita": "He.8.10"
+  },
+  {
+    "versetCA": "De nit et desitjo amb tota l'ànima, Senyor, em deleixo per tu del fons del cor.",
+    "cita": "Is.26.9"
+  },
+  {
+    "versetCA": "Consoleu, consoleu el meu poble diu el vostre Déu. Parleu al cor de Jerusalem i anuncieu-li que s’ha acabat la seva servitud, que li ha estat perdonada la culpa",
+    "cita": "Is.40.1-2"
   },
   {
     "versetCA": "Parleu al cor de Jerusalem i anuncieu-li que s'ha acabat la seva servitud, que li ha estat perdonada la culpa, que ha rebut del Senyor doble paga per tots els seus pecats.",
-    "cita": "Isaïes 40, 2"
-  },
-  {
-    "versetCA": "Puja en una muntanya ben alta, tu que portes bones noves a Sió; alça ben forta la veu, tu que portes bones noves a Jerusalem. Crida, no tinguis por! Digues a les viles de Judà: «Aquí teniu el vostre Déu!",
-    "cita": "Isaïes 40, 9"
-  },
-  {
-    "versetCA": "Ell guareix els cors desfets, els embena les ferides. ",
-    "cita": "Salm 147, 3"
+    "cita": "Is.40.2"
   },
   {
     "versetCA": "Alceu els ulls al cel i mireu qui ha creat l'estol dels astres, qui els fa sortir, d'un a un, i els crida cada un pel seu nom. És tan gran la seva força i ferm el seu poder, que mai no en falta cap.",
-    "cita": "Isaïes 40, 26"
+    "cita": "Is.40.26"
   },
   {
     "versetCA": "Els joves es cansen i defalleixen, els millors guerrers ensopeguen i cauen;  però els qui confien en el Senyor recobren les forces, alcen el vol com les àguiles, caminen sense cansar-se, corren sense defallir.",
-    "cita": "Isaïes 40, 30-31"
+    "cita": "Is.40.30-31"
+  },
+  {
+    "versetCA": "Però els qui confien en el Senyor recobren les forces, alcen el vol com les àguiles, caminen sense cansar-se, corren sense defallir",
+    "cita": "Is.40.31"
+  },
+  {
+    "versetCA": "Puja en una muntanya ben alta, tu que portes bones noves a Sió; alça ben forta la veu, tu que portes bones noves a Jerusalem. Crida, no tinguis por! Digues a les viles de Judà: «Aquí teniu el vostre Déu!",
+    "cita": "Is.40.9"
+  },
+  {
+    "versetCA": "No tinguis por, que jo sóc amb tu . No et neguitegis, que jo sóc el teu Déu. Jo et dono força i t’ajudo, et sostinc amb la meva dreta bondadosa",
+    "cita": "Is.41.10"
+  },
+  {
+    "versetCA": "Pot oblidar-se una mare del seu infantó, pot deixar d’estimar el fill de les seves entranyes? Però ni que alguna l’oblidés, jo mai no t’oblidaré. Et duc gravada a les palmes de les meves mans",
+    "cita": "Is.49.15-16"
+  },
+  {
+    "versetCA": "El Senyor té pietat de Sió, té pietat de totes les seves ruïnes: convertirà aquest desert en paradís, aquesta estepa en el seu jardí. L’ompliran crits de joia i d’alegria, accions de gràcies, músiques i cants",
+    "cita": "Is.51.3"
+  },
+  {
+    "versetCA": "I ara et torno a prendre amb un amor immens. Ara t’estimo amb un amor etern. T’ho diu el Senyor, el qui t’allibera",
+    "cita": "Is.54.7-8"
+  },
+  {
+    "versetCA": "Alça’t radiant, Jerusalem, que arriba la teva llum: sobre teu clareja com l’alba la glòria del Senyor",
+    "cita": "Is.60.1"
+  },
+  {
+    "versetCA": "Senyor, per què permets que ens desviem del teu camí, que el nostre cor s'endureixi i no et veneri? Reconcilia't amb nosaltres, que som servents teus: som el poble que tens per heretat.",
+    "cita": "Is.63.17"
+  },
+  {
+    "versetCA": "M’has infós vida i amor, vetlles pel meu alè",
+    "cita": "Jb.10.12"
+  },
+  {
+    "versetCA": "Escolteu germans meus estimats: ¿No és Déu qui ha escollit els pobres d’aquest món per fer-los rics en la fe i hereus del Regne que ell ha promès als qui l’estimen?",
+    "cita": "Jm.2.5"
+  },
+  {
+    "versetCA": "Les meves ovelles escolten la meva veu . Jo les conec i elles em segueixen. Jo els dono vida eterna: mai no es perdran, i ningú no me les arrancarà de les mans",
+    "cita": "Jn.10.27-28"
+  },
+  {
+    "versetCA": "Us deixo la pau, us dono la meva pau. Jo us dono la pau que el món no dóna. Que els vostres cors s’asserenin i no temin ",
+    "cita": "Jn.14.27"
+  },
+  {
+    "versetCA": "Jesús li respon: Jo sóc el camí, la veritat i la vida. Ningú arriba al Pare si no és per mi. Si m’heu conegut a mi, també coneixereu el meu pare",
+    "cita": "Jn.14.6-7"
+  },
+  {
+    "versetCA": "Aquest és el meu manament: que us estimeu els uns als altres tal com jo us he estimat. Ningú no té amor més gran que el que dóna la vida pels seus amics",
+    "cita": "Jn.15.12-13"
+  },
+  {
+    "versetCA": "No m'heu escollit vosaltres a mi; sóc jo qui us he escollit a vosaltres i us he confiat la missió d'anar pertot arreu i donar fruit, i un fruit que duri per sempre. I tot allò que demanareu al Pare en nom meu, ell us ho concedirà. Això us mano: que us estimeu els uns als altres",
+    "cita": "Jn.15.16-17"
+  },
+  {
+    "versetCA": "Tal com el Pare m’estima, també jo us estimo a vosaltres. Manteniu-vos en el meu amor",
+    "cita": "Jn.15.9"
+  },
+  {
+    "versetCA": "Déu ha estimat tant el món, que ha donat el seu Fill únic, perquè no es perdi cap dels qui creuen en ell, sinó que tinguin vida eterna.  Déu no ha enviat el seu Fill al món perquè el món  fos condemnat, sinó per salvar-lo per mitjà d’Ell",
+    "cita": "Jn.3.16-17"
+  },
+  {
+    "versetCA": "Dona, on són? ¿Ningú no t'ha condemnat? Ella va respondre: Ningú, Senyor. Jesús digué: Jo tampoc no et condemno. Vés-te'n, i d'ara endavant no pequis més",
+    "cita": "Jn.8.11"
+  },
+  {
+    "versetCA": "Jo sóc la llum del món. El qui em segueix no caminarà a les fosques, sinó que tindrà la llum de la vida",
+    "cita": "Jn.8.12"
+  },
+  {
+    "versetCA": "Senyor, tu em coneixes i em veus, has comprovat que el meu cor és amb tu.",
+    "cita": "Jr.12.3"
+  },
+  {
+    "versetCA": "Quan m'arribava la teva paraula, jo la devorava: ella ha estat el goig i l'alegria del meu cor. Jo porto el teu nom, Senyor, Déu de l'univers.",
+    "cita": "Jr.15.16"
+  },
+  {
+    "versetCA": "Els obriré el cor perquè em coneguin: sabran que jo sóc el Senyor. Ells seran el meu poble i jo seré el seu Déu: es convertiran a mi de tot cor.",
+    "cita": "Jr.24.7"
+  },
+  {
+    "versetCA": "Jo sé quins son els meus designis sobre vosaltres, designis de pau i no de desgràcia: jo us donaré un futur   i una esperança. Ho dic jo el Senyor",
+    "cita": "Jr.29.11"
+  },
+  {
+    "versetCA": "Em cercareu i em trobareu, perquè em cercareu amb tot el cor",
+    "cita": "Jr.29.13"
+  },
+  {
+    "versetCA": "Saciaré tots els qui defalleixen, satisfaré els qui pateixen escassetat",
+    "cita": "Jr.31.25"
+  },
+  {
+    "versetCA": "L'aliança que jo faré amb el casal d'Israel després d'aquells dies serà aquesta: Posaré la meva llei en el seu interior, l'escriuré en el seu cor.",
+    "cita": "Jr.31.33"
+  },
+  {
+    "versetCA": "Faré que tots tinguin un sol cor i un sol comportament, tots em veneraran dia rere dia, per a bé d'ells i dels seus descendents.",
+    "cita": "Jr.32.39"
+  },
+  {
+    "versetCA": "Pactaré amb ells una aliança eterna: no em cansaré de ser a prop seu per fer-los el bé; faré que em venerin de tot cor i no s'allunyin de mi.",
+    "cita": "Jr.32.40"
+  },
+  {
+    "versetCA": "Jo tu ordeno: Siguis fort i valent! No tinguis por i no et desanimis!  Perquè el Senyor el teu Déu t’acompanyarà allà on vagis",
+    "cita": "Js.1.9"
+  },
+  { "versetCA": "Perquè per a Déu no hi ha res impossible", "cita": "Lc.1.37" },
+  {
+    "versetCA": "Fill, tu sempre ets amb mi, i tot el que és meu és teu",
+    "cita": "Lc.15.31"
+  },
+  {
+    "versetCA": "Igualment jo us dic que en el cel hi haurà més alegria per un sol pecador que es converteix que no pas per noranta-nou justos que no necessiten convertir-se",
+    "cita": "Lc.15.7"
+  },
+  {
+    "versetCA": "Aixeca’t i vés-te’n: la teva fe t’ha salvat",
+    "cita": "Lc.17.19"
+  },
+  {
+    "versetCA": "Maria guardava tot això en el seu cor i ho meditava",
+    "cita": "Lc.2.19"
+  },
+  {
+    "versetCA": "Però a vosaltres que escolteu, jo us dic: Estimeu els vostres enemics, feu bé als qui us odien, beneïu els qui us maleeixen, pregueu pels qui us calumnien",
+    "cita": "Lc.6.27-29"
+  },
+  {
+    "versetCA": "L'home bo, del bon tresor del seu cor, en treu la bondat, i l'home dolent, del seu tresor dolent, en treu el mal. Perquè del que sobreïx del cor, en parla la boca",
+    "cita": "Lc.6.45"
+  },
+  {
+    "versetCA": "Així, doncs, t’asseguro que els seus molts pecats li han estat perdonats: per això ella estima molt.  Aquell a qui poc és perdonat, estima poc",
+    "cita": "Lc.7.47"
+  },
+  {
+    "versetCA": "Coneixereu la veritat i la veritat us farà lliures",
+    "cita": "Lc.8.32"
+  },
+  {
+    "versetCA": "Encara som vius per l’amor del Senyor, al seva pietat no s’esgota. La renoves cada dia. Oh, quina fidelitat!  M’he dit: “El Senyor és la meva heretat”. Per això confio en ell. El Senyor és bo per al qui en ell espera, per als qui el cerquen de cor",
+    "cita": "Lm.3.22-25"
+  },
+  {
+    "versetCA": "“Deixeu que els infants  vinguin a mi. No els hi ho impediu, perquè el Regne de Déu és dels qui són com ells” ",
+    "cita": "Mc.10.14"
+  },
+  {
+    "versetCA": "Tingueu fe en Déu. Si algú diu a aquesta muntanya: «alça’t i tira’t al mar», sense dubtar-ho en el cor, sinó creient que es realitzarà allò que diu, us asseguro que li serà concedit",
+    "cita": "Mc.11.23"
+  },
+  {
+    "versetCA": "Veniu a  mi tots els que esteu cansats i afeixugats, i jo us faré reposar. Accepteu el meu jou, feu-vos deixebles meus, que sóc benèvol i humil de cor, i trobareu el repòs, perquè, el meu jou és suau, i la meva càrrega, lleugera",
+    "cita": "Mt.11.28-30"
+  },
+  {
+    "versetCA": "Accepteu el meu jou i feu-vos deixebles meus, que sóc benèvol i humil de cor, i trobareu el repòs",
+    "cita": "Mt.11.29"
+  },
+  {
+    "versetCA": "Us asseguro que , si dos de vosaltres aquí a la terra es posen d'acord per a demanar alguna cosa, el meu Pare del cel els la concedirà; perquè on n'hi ha dos o tres de reunits en el meu nom, jo sóc allí enmig d'ells",
+    "cita": "Mt.18.19-20"
+  },
+  {
+    "versetCA": "Jesús se’ls mirà i els digué: Als homes els és impossible, però Déu tot ho pot",
+    "cita": "Mt.19.26"
+  },
+  {
+    "versetCA": "Jesús li digué: Estima el Senyor, el teu Déu, amb tot el cor, amb tota l’ànima, amb tot el pensament. Aquest manament és el més gran i el primer. El segon li és semblant: Estima als altres com a tu mateix",
+    "cita": "Mt.22.37-39"
+  },
+  {
+    "versetCA": "Feliços els pobres en l’esperit, d’ells és el Regne del cel",
+    "cita": "Mt.5.3"
+  },
+  { "versetCA": "Feliços els qui ploren, Déu els consolarà", "cita": "Mt.5.4" },
+  {
+    "versetCA": "Perquè, si perdoneu als altres les seves faltes, el vostre Pare celestial també us perdonarà a vosaltres",
+    "cita": "Mt.6.14"
+  },
+  { "versetCA": "On tens el tresor, hi tindràs el cor", "cita": "Mt.6.21" },
+  {
+    "versetCA": "Mireu els ocells del cel: no sembren, ni seguen ni recullen en graners, i el vostre Pare celestial els alimenta. No valeu vosaltres més que no pas ells? ",
+    "cita": "Mt.6.26"
+  },
+  {
+    "versetCA": "Tu, quan preguis, entra a la cambra més retirada, tanca-t'hi amb pany i clau i prega al teu Pare, present en els llocs més amagats, i el teu Pare, que veu el que és amagat, t'ho recompensarà",
+    "cita": "Mt.6.6"
+  },
+  {
+    "versetCA": "Demaneu, i Déu us donarà; cerqueu, i trobareu; truqueu i Déu us obrirà; perquè el qui demana, rep; el qui cerca, troba, i a qui truca; li obren",
+    "cita": "Mt.7.7"
+  },
+  {
+    "versetCA": "Jo la seduiré, la portaré al desert i li parlaré al cor.",
+    "cita": "Os.2.16"
+  },
+  {
+    "versetCA": "Una pena al cor deprimeix, una bona paraula porta alegria.",
+    "cita": "Pr.12.25"
+  },
+  {
+    "versetCA": "L'esperança que es retarda afligeix el cor, la que es compleix alimenta com l'arbre de la vida.",
+    "cita": "Pr.13.12"
+  },
+  {
+    "versetCA": "Un esguard radiant alegra el cor, una bona notícia dóna nou vigor.",
+    "cita": "Pr.15.30"
+  },
+  {
+    "versetCA": "Para l'orella a la saviesa, obre el cor al seny",
+    "cita": "Pr.2.2"
+  },
+  {
+    "versetCA": "Fill meu, si el teu cor es fa savi, també el meu cor se n'alegra",
+    "cita": "Pr.23.15"
+  },
+  {
+    "versetCA": "Tu, fill meu, escolta i posa seny, procura d'encaminar el teu cor.",
+    "cita": "Pr.23.19"
+  },
+  {
+    "versetCA": "L'aigua és l'espill de la cara, el cor és l'espill de l'home.",
+    "cita": "Pr.27.19"
+  },
+  {
+    "versetCA": "El perfum i l'encens alegren el cor; la tendresa de l'amic val més que el propi parer.",
+    "cita": "Pr.27.9"
+  },
+  {
+    "versetCA": "No oblidis la meva instrucció, fill meu, guarda en el cor els meus preceptes",
+    "cita": "Pr.3.1"
+  },
+  {
+    "versetCA": "No perdis l'amor ni la fidelitat: lliga-te-les al coll, grava-te-les al cor",
+    "cita": "Pr.3.3"
+  },
+  {
+    "versetCA": "Estima als altres com a tu mateix. Qui estima, no fa cap mal als altres. Estimar és la plenitud de la Llei ",
+    "cita": "Rm.13.10"
+  },
+  {
+    "versetCA": "I que el Déu de l’esperança ompli la vostra fe d’alegria i de pau perquè vesseu d’esperança gràcies a la força de l’Esperit Sant",
+    "cita": "Rm.15.13"
+  },
+  {
+    "versetCA": "Fins i tot en les tribulacions trobem motiu de gloriar-nos, perquè sabem que la tribulació engendra paciència; la paciència, virtut provada; la virtut provada, esperança ",
+    "cita": "Rm.5.3"
+  },
+  {
+    "versetCA": "Venerar el Senyor alegra el cor, dóna joia, goig i llarga vida. Venerar el Senyor és un do del mateix Senyor, que condueix l'home pels camins de l'amor.",
+    "cita": "Sir.1.12"
+  },
+  {
+    "versetCA": "El cor de l'home afaiçona l'aspecte de la cara, sigui en bé, sigui en mal.",
+    "cita": "Sir.13.25"
+  },
+  {
+    "versetCA": "Una cara alegre és senyal d'un cor bo, però trobar un proverbi ben pensat demana molta reflexió",
+    "cita": "Sir.13.26"
+  },
+  {
+    "versetCA": "Redreça el teu cor, sigues valent i no t'espantis en els moments difícils.",
+    "cita": "Sir.2.2"
+  },
+  {
+    "versetCA": "Un cop a l'ull, en fa saltar les llàgrimes; un cop al cor, en revela els sentiments.",
+    "cita": "Sir.22.19"
+  },
+  {
+    "versetCA": "No hi ha riquesa millor que la salut del cos ni benestar que valgui tant com l'alegria del cor.",
+    "cita": "Sir.30.16"
+  },
+  {
+    "versetCA": "L'alegria del cor és vida per a l'home, i la joia li allarga els dies.",
+    "cita": "Sir.30.22"
+  },
+  {
+    "versetCA": "Feliç aquell qui reflexionarà sobre aquests ensenyaments! Qui els posi en el seu cor es farà savi",
+    "cita": "Sir.50.28"
+  },
+  {
+    "versetCA": "Acull, Senyor, el desig dels desvalguts; enforteix el seu cor, escolta'ls.",
+    "cita": "Sl.10.17"
+  },
+  {
+    "versetCA": "Beneeix el Senyor, ànima meva, del fons del cor beneeix el seu sant nom.",
+    "cita": "Sl.103.1"
+  },
+  {
+    "versetCA": "Però l’amor del Senyor pels seus fidels és de sempre i dura per sempre ",
+    "cita": "Sl.103.17"
+  },
+  {
+    "versetCA": "El Senyor és compassiu i benigne, lent per al càstig i ric en l’amor",
+    "cita": "Sl.103.8"
+  },
+  {
+    "versetCA": "El meu cor se sent segur, Déu meu; tocaré i cantaré amb tota la força.",
+    "cita": "Sl.108.2"
+  },
+  {
+    "versetCA": "Fes-me entendre la teva Llei, que la vull guardar amb tot el cor.",
+    "cita": "Sl.119.34"
+  },
+  {
+    "versetCA": "Viuré amb el cor ample, jo que medito els teus preceptes.",
+    "cita": "Sl.119.45"
+  },
+  {
+    "versetCA": "La vostra Paraula fa llum als meus passos, és la claror que m’il·lumina el camí. ",
+    "cita": "Sl.119.9"
+  },
+  {
+    "versetCA": "Però jo confio en el teu amor, el meu cor s'alegra perquè em salves. Canto al Senyor pels seus favors.",
+    "cita": "Sl.13.6"
+  },
+  {
+    "versetCA": "Senyor, el meu cor no és ambiciós ni són altius els meus ulls; visc sense pretensions de grandeses o de coses massa altes per a mi.",
+    "cita": "Sl.131.1"
+  },
+  {
+    "versetCA": "Em mantinc en una pau tranquil·la, com un nen a la falda de la mare. ",
+    "cita": "Sl.131.2"
+  },
+  {
+    "versetCA": "Déu meu, penetra els meus secrets i coneix el meu cor, examina'm per conèixer què desitjo.",
+    "cita": "Sl.139.23"
+  },
+  {
+    "versetCA": "Senyor, Déu meu, a vós giro els ulls, en vós em refugio, no em deixeu indefens ",
+    "cita": "Sl.140.8"
+  },
+  {
+    "versetCA": "Són camins de bondat, els del Senyor, les seves obres són obres d’amor. El Senyor és a prop dels qui l’invoquen, dels qui l’invoquen amb sinceritat",
+    "cita": "Sl.145.17-18"
+  },
+  {
+    "versetCA": "Ell guareix els cors desfets, els embena les ferides. ",
+    "cita": "Sl.147.3"
+  },
+  {
+    "versetCA": "En veure'm en perill, clamo al Senyor, crido socors al meu Déu; des del seu palau, ell esColossencsta el meu clam, el meu crit li arriba al cor.",
+    "cita": "Sl.18.7"
+  },
+  {
+    "versetCA": "Que et complaguin les paraules dels meus llavis i que et siguin agradables els pensaments del meu cor, Senyor, penyal meu, redemptor meu!",
+    "cita": "Sl.19.15"
+  },
+  {
+    "versetCA": "El Senyor és el meu pastor: no em manca res. Em fa descansar en prats deliciosos, em mena el repòs sobre l’aigua, i  allí em retorna",
+    "cita": "Sl.23.1-2"
+  },
+  {
+    "versetCA": "Ben cert, tota la vida m’acompanyen la teva bondat i el teu amor. I viuré anys i més anys a la casa del Senyor",
+    "cita": "Sl.23.6"
+  },
+  {
+    "versetCA": "El Senyor m’il·lumina i em salva, qui em pot fer por?",
+    "cita": "Sl.27.1"
+  },
+  {
+    "versetCA": "Espera en el Senyor; sigues valent, que el teu cor no desfalleixi. Espera en el Senyor.",
+    "cita": "Sl.27.14"
+  },
+  {
+    "versetCA": "El Senyor és el mur que em protegeix; el meu cor confia en ell. M'ha defensat i me n'alegro tot jo; vull lloar-lo amb els meus cants.",
+    "cita": "Sl.28.7"
+  },
+  { "versetCA": "Senyor, vós sou l’escut que em protegeix ", "cita": "Sl.3.4" },
+  {
+    "versetCA": "Sigueu valents, tingueu coratge, tots els qui espereu en el Senyor",
+    "cita": "Sl.31.25"
+  },
+  {
+    "versetCA": "Jo mateix t’instruiré, t’ensenyaré el camí que has de seguir; t’aconsellaré, els meus ulls vetllaran per tu",
+    "cita": "Sl.32.8"
+  },
+  {
+    "versetCA": "Als qui clamen al Senyor, ell els escolta i els treu de tots els perills. El Senyor és a prop dels cors  que sofreixen, salva els homes que se senten desfets",
+    "cita": "Sl.34.18-19"
+  },
+  {
+    "versetCA": "Estima el Senyor amb tendresa i ell acomplirà els teus desitjos més profunds",
+    "cita": "Sl.37.4"
+  },
+  {
+    "versetCA": "M’adormo en pau i així em fico al llit, perquè només tu, Senyor, em fas reposar segur",
+    "cita": "Sl.4.9"
+  },
+  {
+    "versetCA": "Escolteu, Senyor, les meves paraules, acull el meu anhel ",
+    "cita": "Sl.5.2"
+  },
+  {
+    "versetCA": "És a vós que imploro, Senyor, escolteu el meu clam a trenc d’alba ",
+    "cita": "Sl.5.3"
+  },
+  {
+    "versetCA": "Guieu-me, Senyor, vós que sou just, feu-me planer el camí que obriu davant meu ",
+    "cita": "Sl.5.9"
+  },
+  {
+    "versetCA": "Déu meu, crea en mi un cor ben pur, fes renéixer en mi un esperit ferm.",
+    "cita": "Sl.51.12"
+  },
+  {
+    "versetCA": "Tu que estimes la veritat al fons del cor, m'ensenyes dintre meu a tenir seny.",
+    "cita": "Sl.51.8"
+  },
+  { "versetCA": "Confio en Déu i no tinc por", "cita": "Sl.55.11" },
+  {
+    "versetCA": "Deixa en mans del Senyor el teu destí: Ell et mantindrà. No permetrà mai de la vida que el just sucumbeixi",
+    "cita": "Sl.55.23"
+  },
+  {
+    "versetCA": "El meu cor se sent segur, Déu meu, se sent segur el meu cor. Tocaré i cantaré",
+    "cita": "Sl.57.8"
+  },
+  {
+    "versetCA": "Desvetlla't, cor meu, desvetlleu-vos, arpa i lira meva, vull desvetllar l'aurora.",
+    "cita": "Sl.57.9"
+  },
+  {
+    "versetCA": "Veniu a salvar-me la vida, allibereu-me per la vostra bondat ",
+    "cita": "Sl.6.5"
+  },
+  {
+    "versetCA": "Només en Déu reposa la meva ànima, d’ell em ve la salvació. Només ell és la roca que em salva, el castell on em trobo segur",
+    "cita": "Sl.62.1-2"
+  },
+  {
+    "versetCA": "Només en Déu reposa la meva ànima. És el castell on em sento segur. ",
+    "cita": "Sl.62.2"
+  },
+  { "versetCA": "L’amor que em teniu val més que la vida ", "cita": "Sl.62.4" },
+  {
+    "versetCA": "La meva ànima s’ha enamorat de vós, em sosté la vostra mà ",
+    "cita": "Sl.62.6-7"
+  },
+  {
+    "versetCA": "Vós, Senyor, sou el meu Déu; jo us cerco.Tot jo tinc set de vós. ",
+    "cita": "Sl.62.8"
+  },
+  {
+    "versetCA": "Vosaltres, poble seu, confieu sempre en ell, esplaieu davant d'ell el vostre cor: Déu és el nostre refugi.",
+    "cita": "Sl.62.9"
+  },
+  {
+    "versetCA": "Tu ets el meu Déu, Senyor; a l'alba et cerco. Tot jo tinc set de tu, per tu es desviu el meu cor en terra eixuta, assedegada, sense aigua.",
+    "cita": "Sl.63.2"
+  },
+  {
+    "versetCA": "Ensenya'm la teva ruta, Senyor, que m'encamini en la teva veritat; que el meu cor tot sencer veneri el teu nom.",
+    "cita": "Sl.86.11"
+  },
+  {
+    "versetCA": "Et lloaré, Senyor, Déu meu, amb tot el cor, glorificaré per sempre el teu nom",
+    "cita": "Sl.86.12"
+  },
+  {
+    "versetCA": "Et dono gràcies, Senyor, amb tot el cor, contaré totes les teves meravelles.",
+    "cita": "Sl.9.2"
+  },
+  {
+    "versetCA": "Ensenya'ns a comptar els nostres dies per a adquirir la saviesa del cor.",
+    "cita": "Sl.90.12"
   }
 ]
