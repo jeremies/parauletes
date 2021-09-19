@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import parauletes from "./parauletes.json";
+import abreviacions from "./abreviacions-llibres-biblia.json";
 import "./App.css";
 
 function reload() {
@@ -10,6 +11,14 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+function getCitaCompleta(cita) {
+  var [llibre, capitol, versets] = cita.split(".");
+  var llibreComplet = abreviacions.find(
+    (abreviacio) => abreviacio.abreviacio === llibre
+  ).llibreCA;
+  return `${llibreComplet} ${capitol}, ${versets}`;
+}
+
 function App() {
   const [verset, setVerset] = useState();
   const [cita, setCita] = useState();
@@ -18,7 +27,7 @@ function App() {
     let numeroAleatori = getRandomInt(parauletes.length);
 
     setVerset(parauletes[numeroAleatori].versetCA);
-    setCita(parauletes[numeroAleatori].cita);
+    setCita(getCitaCompleta(parauletes[numeroAleatori].cita));
 
     if (!window.location.hostname === "localhost") {
       fetch("https://api.countapi.xyz/hit/parauletes.netlify.app/requests");
