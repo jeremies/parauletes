@@ -6,3 +6,9 @@ Notes:
 ```js
 parauletes.sort((a, b) => (a.cita > b.cita ? 1 : b.cita > a.cita ? -1 : 0));
 ```
+
+# Executar els tests
+
+```sh
+node src/jsonTests.js
+```

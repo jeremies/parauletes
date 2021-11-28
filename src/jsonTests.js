@@ -21,6 +21,12 @@ var testos = [
     );
     return llibresDesconeguts.length === 0;
   },
+  function parauletesNoMoltLlargues() {
+    return (
+      parauletes.filter((parauleta) => parauleta.versetCA.length > 278)
+        .length === 0
+    );
+  },
 ];
 
 var failed = 0;
