@@ -26,17 +26,8 @@
   cursor: pointer;
 }
 
-.icon-div {
-  color: white;
-}
-
 .icon {
   width: 2rem;
-}
-
-.st0 {
-  fill-rule: evenodd;
-  clip-rule: evenodd;
 }
 
 .title {
