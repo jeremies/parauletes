@@ -34,7 +34,10 @@ function Home() {
     setVerset(parauletes[numeroAleatori].versetCA);
     setCita(getCitaCompleta(parauletes[numeroAleatori].cita));
 
-    if (window.location.hostname !== "localhost") {
+    if (
+      window.location.hostname !== "localhost" &&
+      window.location.hostname !== "dev--parauletes.netlify.app"
+    ) {
       fetch("https://api.countapi.xyz/hit/parauletes.netlify.app/requests");
     }
   }, []);
