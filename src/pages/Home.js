@@ -5,6 +5,7 @@ import "./Home.css";
 import AppBarHome from "../components/AppBarHome";
 import Fab from "@mui/material/Fab";
 import CachedIcon from "@mui/icons-material/Cached";
+import Snackbar from "@mui/material/Snackbar";
 
 function reload() {
   window.location.reload();
@@ -25,6 +26,7 @@ function getCitaCompleta(cita) {
 function Home() {
   const [verset, setVerset] = useState();
   const [cita, setCita] = useState();
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     let numeroAleatori = getRandomInt(parauletes.length);
@@ -37,16 +39,36 @@ function Home() {
     }
   }, []);
 
+  const onCopyToClipboard = () => {
+    navigator.clipboard.writeText(`${verset} (${cita})`).then(() => {
+      setOpen(true);
+    });
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   return (
     <div className="home">
-      <AppBarHome></AppBarHome>
+      <AppBarHome onClickCopy={onCopyToClipboard}></AppBarHome>
       <div className="home-body">
         <p className="verset">{verset}</p>
         <p className="cita">{cita}</p>
-        <Fab color="primary" onClick={reload}>
+        <Fab
+          sx={{ position: "absolute", bottom: 20, right: 20 }}
+          color="primary"
+          onClick={reload}
+        >
           <CachedIcon />
         </Fab>
       </div>
+      <Snackbar
+        open={open}
+        autoHideDuration={3000}
+        onClose={handleClose}
+        message="La parauleta s'ha copiat al portapapers."
+      />
     </div>
   );
 }

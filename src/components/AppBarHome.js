@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
@@ -12,7 +11,7 @@ import logo from "../logo.svg";
 import "./AppBarHome.css";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 
-function AppBarHome() {
+function AppBarHome(props) {
   const [anchorElMenu, setAnchorElMenu] = useState(null);
   const menuOpen = Boolean(anchorElMenu);
   const handleClickMenu = (event) => {
@@ -29,6 +28,10 @@ function AppBarHome() {
   };
   const handleCloseOptions = () => {
     setAnchorElOptions(null);
+  };
+  const onClickCopy = () => {
+    handleCloseOptions();
+    props.onClickCopy();
   };
 
   return (
@@ -69,7 +72,7 @@ function AppBarHome() {
           open={optionsOpen}
           onClose={handleCloseOptions}
         >
-          <MenuItem onClick={handleCloseOptions}>Copiar</MenuItem>
+          <MenuItem onClick={onClickCopy}>Copiar</MenuItem>
           <MenuItem onClick={handleCloseOptions}>Compartir</MenuItem>
         </Menu>
       </Toolbar>
