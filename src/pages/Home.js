@@ -38,7 +38,7 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="home">
       <AppBarHome></AppBarHome>
       <div className="home-body">
         <p className="verset">{verset}</p>

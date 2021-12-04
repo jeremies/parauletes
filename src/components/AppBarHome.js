@@ -32,54 +32,48 @@ function AppBarHome() {
   };
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-            onClick={handleClickMenu}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Menu
-            anchorEl={anchorElMenu}
-            open={menuOpen}
-            onClose={handleCloseMenu}
-          >
-            <MenuItem onClick={handleCloseMenu} component={Link} to="settings">
-              Configuració
-            </MenuItem>
-            <MenuItem onClick={handleCloseMenu}>My account</MenuItem>
-            <MenuItem onClick={handleCloseMenu}>Logout</MenuItem>
-          </Menu>
-          <img src={logo} className="icon" alt="logo" />
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Parauletes
-          </Typography>
-          <IconButton
-            size="large"
-            edge="end"
-            color="inherit"
-            sx={{ ml: 2 }}
-            onClick={handleClickOptions}
-          >
-            <MoreVertIcon />
-          </IconButton>
-          <Menu
-            anchorEl={anchorElOptions}
-            open={optionsOpen}
-            onClose={handleCloseOptions}
-          >
-            <MenuItem onClick={handleCloseOptions}>Copiar</MenuItem>
-            <MenuItem onClick={handleCloseOptions}>Compartir</MenuItem>
-          </Menu>
-        </Toolbar>
-      </AppBar>
-    </Box>
+    <AppBar position="static">
+      <Toolbar>
+        <IconButton
+          size="large"
+          edge="start"
+          color="inherit"
+          aria-label="menu"
+          sx={{ mr: 2 }}
+          onClick={handleClickMenu}
+        >
+          <MenuIcon />
+        </IconButton>
+        <Menu anchorEl={anchorElMenu} open={menuOpen} onClose={handleCloseMenu}>
+          <MenuItem onClick={handleCloseMenu} component={Link} to="settings">
+            Configuració
+          </MenuItem>
+          <MenuItem onClick={handleCloseMenu}>My account</MenuItem>
+          <MenuItem onClick={handleCloseMenu}>Logout</MenuItem>
+        </Menu>
+        <img src={logo} className="icon" alt="logo" />
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          Parauletes
+        </Typography>
+        <IconButton
+          size="large"
+          edge="end"
+          color="inherit"
+          sx={{ ml: 2 }}
+          onClick={handleClickOptions}
+        >
+          <MoreVertIcon />
+        </IconButton>
+        <Menu
+          anchorEl={anchorElOptions}
+          open={optionsOpen}
+          onClose={handleCloseOptions}
+        >
+          <MenuItem onClick={handleCloseOptions}>Copiar</MenuItem>
+          <MenuItem onClick={handleCloseOptions}>Compartir</MenuItem>
+        </Menu>
+      </Toolbar>
+    </AppBar>
   );
 }
 
