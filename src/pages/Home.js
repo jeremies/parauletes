@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import parauletes from "./parauletes.json";
-import abreviacions from "./abreviacions-llibres-biblia.json";
+import parauletes from "../parauletes.json";
+import abreviacions from "../abreviacions-llibres-biblia.json";
 import "./Home.css";
-import logo from "./logo.svg";
+import AppBarHome from "../components/AppBarHome";
+import Fab from "@mui/material/Fab";
+import CachedIcon from "@mui/icons-material/Cached";
 
 function reload() {
   window.location.reload();
@@ -30,22 +32,21 @@ function Home() {
     setVerset(parauletes[numeroAleatori].versetCA);
     setCita(getCitaCompleta(parauletes[numeroAleatori].cita));
 
-    if (!window.location.hostname === "localhost") {
+    if (window.location.hostname !== "localhost") {
       fetch("https://api.countapi.xyz/hit/parauletes.netlify.app/requests");
     }
   }, []);
 
   return (
-    <div className="home-body">
-      <div className="title">
-        <img src={logo} className="icon" alt="logo" />
-        <div className="title-text">Parauletes</div>
+    <div>
+      <AppBarHome></AppBarHome>
+      <div className="home-body">
+        <p className="verset">{verset}</p>
+        <p className="cita">{cita}</p>
+        <Fab color="primary" onClick={reload}>
+          <CachedIcon />
+        </Fab>
       </div>
-      <p className="verset">{verset}</p>
-      <p className="cita">{cita}</p>
-      <button className="button" onClick={reload}>
-        Nou verset
-      </button>
     </div>
   );
 }

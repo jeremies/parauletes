@@ -1,16 +1,17 @@
 import React from "react";
 import "./App.css";
-import { Routes, Route, Link } from "react-router-dom";
-import Home from "./Home";
-import Settings from "./Settings";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Settings from "./pages/Settings";
+
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 
 function App() {
   return (
-    <div className="App">
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="settings">Settings</Link>
-      </nav>
+    <div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="settings" element={<Settings />} />
