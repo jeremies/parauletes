@@ -34,6 +34,11 @@ function AppBarHome(props) {
     props.onClickCopy();
   };
 
+  const onClickShare = () => {
+    handleCloseOptions();
+    props.onClickShare();
+  };
+
   return (
     <AppBar position="static">
       <Toolbar>
@@ -73,7 +78,7 @@ function AppBarHome(props) {
           onClose={handleCloseOptions}
         >
           <MenuItem onClick={onClickCopy}>Copiar</MenuItem>
-          <MenuItem onClick={handleCloseOptions}>Compartir</MenuItem>
+          <MenuItem onClick={onClickShare}>Compartir</MenuItem>
         </Menu>
       </Toolbar>
     </AppBar>

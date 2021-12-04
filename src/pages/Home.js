@@ -48,13 +48,22 @@ function Home() {
     });
   };
 
+  const onShare = () => {
+    navigator.share({
+      text: `${verset} (${cita})`,
+    });
+  };
+
   const handleClose = () => {
     setOpen(false);
   };
 
   return (
     <div className="home">
-      <AppBarHome onClickCopy={onCopyToClipboard}></AppBarHome>
+      <AppBarHome
+        onClickCopy={onCopyToClipboard}
+        onClickShare={onShare}
+      ></AppBarHome>
       <div className="home-body">
         <p className="verset">{verset}</p>
         <p className="cita">{cita}</p>
