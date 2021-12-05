@@ -83,7 +83,19 @@ function firstWindowClient() {
 }
 
 self.addEventListener("notificationclick", (event) => {
-  debugger;
-  console.log("hola");
-  let notification = event.notification;
+  const rootUrl = new URL("./", location).href;
+  event.notification.close();
+  event.waitUntil(
+    self.clients.matchAll().then((matchedClients) => {
+      for (let client of matchedClients) {
+        if (client.url.indexOf(rootUrl) >= 0) {
+          return client.focus();
+        }
+      }
+
+      return self.clients.openWindow(rootUrl).then(function (client) {
+        client.focus();
+      });
+    })
+  );
 });
