@@ -84,5 +84,6 @@ function firstWindowClient() {
 
 self.addEventListener("notificationclick", (event) => {
   debugger;
+  console.log("hola");
   let notification = event.notification;
 });
