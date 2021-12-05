@@ -72,28 +72,23 @@ self.addEventListener("message", (event) => {
 
 // Any other custom service worker logic can go here.
 
-function firstWindowClient() {
-  return self.clients
-    .matchAll({ type: "window" })
-    .then(function (windowClients) {
-      return windowClients.length
-        ? windowClients[0]
-        : Promise.reject("No clients");
-    });
-}
-
 self.addEventListener("notificationclick", (event) => {
-  const rootUrl = new URL("./", location).href;
   event.notification.close();
   event.waitUntil(
     self.clients.matchAll().then((matchedClients) => {
       if (matchedClients.length > 0) {
-        return matchedClients[0].navigate("/settings");
+        return matchedClients[0].navigate("/refresh").then((client) => {
+          client.focus();
+        });
       }
 
-      return self.clients.openWindow(rootUrl).then(function (client) {
-        client.focus();
-      });
+      return self.clients.openWindow("/refresh");
     })
   );
+});
+
+self.addEventListener("periodicsync", (event) => {
+  if (event.tag == "get-latest-news") {
+    console.log("bienn!");
+  }
 });

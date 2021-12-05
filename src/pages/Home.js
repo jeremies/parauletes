@@ -58,6 +58,27 @@ function Home() {
     }
 
     showNotification();
+
+    async function registerPeriodicNewsCheck() {
+      const status = await navigator.permissions.query({
+        name: "periodic-background-sync",
+      });
+
+      if (status.state === "granted") {
+        console.log("granted!!");
+      }
+
+      const registration = await navigator.serviceWorker.ready;
+      try {
+        await registration.periodicSync.register("get-latest-news", {
+          minInterval: 3 * 1000,
+        });
+      } catch {
+        console.log("Periodic Sync could not be registered!");
+      }
+    }
+
+    registerPeriodicNewsCheck();
   }, []);
 
   const onCopyToClipboard = () => {
