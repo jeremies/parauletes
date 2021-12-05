@@ -71,3 +71,18 @@ self.addEventListener("message", (event) => {
 });
 
 // Any other custom service worker logic can go here.
+
+function firstWindowClient() {
+  return self.clients
+    .matchAll({ type: "window" })
+    .then(function (windowClients) {
+      return windowClients.length
+        ? windowClients[0]
+        : Promise.reject("No clients");
+    });
+}
+
+self.addEventListener("notificationclick", (event) => {
+  debugger;
+  let notification = event.notification;
+});
