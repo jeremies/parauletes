@@ -87,10 +87,8 @@ self.addEventListener("notificationclick", (event) => {
   event.notification.close();
   event.waitUntil(
     self.clients.matchAll().then((matchedClients) => {
-      for (let client of matchedClients) {
-        if (client.url.indexOf(rootUrl) >= 0) {
-          return client.focus();
-        }
+      if (matchedClients.length > 0) {
+        return matchedClients[0].navigate("/settings");
       }
 
       return self.clients.openWindow(rootUrl).then(function (client) {
