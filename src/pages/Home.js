@@ -42,7 +42,6 @@ function Home() {
     }
 
     function showNotification() {
-      debugger;
       Notification.requestPermission(function (result) {
         if (result === "granted") {
           navigator.serviceWorker.ready.then(function (registration) {
