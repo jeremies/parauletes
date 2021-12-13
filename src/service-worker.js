@@ -71,24 +71,3 @@ self.addEventListener("message", (event) => {
 });
 
 // Any other custom service worker logic can go here.
-
-self.addEventListener("notificationclick", (event) => {
-  event.notification.close();
-  event.waitUntil(
-    self.clients.matchAll().then((matchedClients) => {
-      if (matchedClients.length > 0) {
-        return matchedClients[0].navigate("/refresh").then((client) => {
-          client.focus();
-        });
-      }
-
-      return self.clients.openWindow("/refresh");
-    })
-  );
-});
-
-self.addEventListener("periodicsync", (event) => {
-  if (event.tag == "get-latest-news") {
-    console.log("bienn!");
-  }
-});
