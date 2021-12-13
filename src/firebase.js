@@ -24,6 +24,7 @@ const getTokenFunc = (setTokenFound) => {
         setTokenFound(true);
         // Track the token -> client mapping, by sending to backend server
         // show on the UI that permission is secured
+        alert(currentToken);
       } else {
         console.log(
           "No registration token available. Request permission to generate one."
