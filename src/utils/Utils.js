@@ -1,5 +1,4 @@
 export function hitCounter(key) {
-  alert(key);
   if (
     window.location.hostname !== "localhost" &&
     window.location.hostname !== "dev--parauletes.netlify.app"
