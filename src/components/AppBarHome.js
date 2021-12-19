@@ -56,8 +56,9 @@ function AppBarHome(props) {
           <MenuItem onClick={handleCloseMenu} component={Link} to="settings">
             Configuració
           </MenuItem>
-          <MenuItem onClick={handleCloseMenu}>My account</MenuItem>
-          <MenuItem onClick={handleCloseMenu}>Logout</MenuItem>
+          <MenuItem onClick={handleCloseMenu} component={Link} to="about">
+            Sobre l'App
+          </MenuItem>
         </Menu>
         <img src={logo} className="icon" alt="logo" />
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>

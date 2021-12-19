@@ -3,15 +3,16 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
-import "./AppBarHome.css";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
-function AppBarHome() {
+function AppBarGoBack() {
   const navigate = useNavigate();
   const handleClickBack = () => {
     navigate(-1);
   };
+  const location = useLocation();
 
   return (
     <AppBar position="static">
@@ -26,11 +27,12 @@ function AppBarHome() {
           <ArrowBackIcon />
         </IconButton>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Configuració
+          {location.pathname === "/about" ? "Sobre l'App" : ""}
+          {location.pathname === "/settings" ? "Configuració" : ""}
         </Typography>
       </Toolbar>
     </AppBar>
   );
 }
 
-export default AppBarHome;
+export default AppBarGoBack;

@@ -3,6 +3,7 @@ import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Settings from "./pages/Settings";
+import About from "./pages/About";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 
@@ -19,11 +20,12 @@ function App() {
   });
   return (
     <ThemeProvider theme={darkTheme}>
-      <Paper sx={{ height: "100vh" }} elevation={12}>
+      <Paper sx={{ minHeight: "100vh" }} elevation={12}>
         <div>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="settings" element={<Settings />} />
+            <Route path="about" element={<About />} />
             <Route path="/refresh" element={<Navigate to="/" />} />
           </Routes>
         </div>
