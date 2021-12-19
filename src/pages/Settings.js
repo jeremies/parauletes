@@ -1,23 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AppBarGoBack from "../components/AppBarGoBack";
 import Button from "@mui/material/Button";
 import ShareIcon from "@mui/icons-material/Share";
+import { hitCounter } from "../utils/Utils";
 
 import "./Settings.css";
 
 function Settings() {
+  useEffect(() => {
+    hitCounter("settings");
+  }, []);
+
   const onShareApp = () => {
     navigator.share({
       text: "https://parauletes.netlify.app",
     });
+
+    hitCounter("share.app");
   };
 
   return (
     <div>
       <AppBarGoBack></AppBarGoBack>
       <main className="settings-body">
-        <h2>Who are we?</h2>
-        <p>That feels like an existential question, don't you think?</p>
         <Button
           variant="outlined"
           startIcon={<ShareIcon />}

@@ -6,6 +6,7 @@ import AppBarHome from "../components/AppBarHome";
 import Fab from "@mui/material/Fab";
 import CachedIcon from "@mui/icons-material/Cached";
 import Snackbar from "@mui/material/Snackbar";
+import { hitCounter } from "../utils/Utils";
 
 function reload() {
   window.location.reload();
@@ -34,17 +35,14 @@ function Home() {
     setVerset(parauletes[numeroAleatori].versetCA);
     setCita(getCitaCompleta(parauletes[numeroAleatori].cita));
 
-    if (
-      window.location.hostname !== "localhost" &&
-      window.location.hostname !== "dev--parauletes.netlify.app"
-    ) {
-      fetch("https://api.countapi.xyz/hit/parauletes.netlify.app/requests");
-    }
+    hitCounter("requests");
   }, []);
 
   const onCopyToClipboard = () => {
     navigator.clipboard.writeText(`${verset} (${cita})`).then(() => {
       setOpen(true);
+
+      hitCounter("copy.parauleta");
     });
   };
 
@@ -52,6 +50,8 @@ function Home() {
     navigator.share({
       text: `${verset} (${cita})`,
     });
+
+    hitCounter("share.parauleta");
   };
 
   const handleClose = () => {

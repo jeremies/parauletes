@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AppBarGoBack from "../components/AppBarGoBack";
 import Link from "@mui/material/Link";
+import { hitCounter } from "../utils/Utils";
 
 import "./About.css";
 
 function About() {
+  useEffect(() => {
+    hitCounter("about");
+  }, []);
+
   return (
     <div>
       <AppBarGoBack></AppBarGoBack>
