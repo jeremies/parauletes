@@ -7,6 +7,7 @@ import Fab from "@mui/material/Fab";
 import CachedIcon from "@mui/icons-material/Cached";
 import Snackbar from "@mui/material/Snackbar";
 import { hitCounter } from "../utils/Utils";
+import { Clipboard } from "@capacitor/clipboard";
 
 function reload() {
   window.location.reload();
@@ -38,12 +39,14 @@ function Home() {
     hitCounter("requests");
   }, []);
 
-  const onCopyToClipboard = () => {
-    navigator.clipboard.writeText(`${verset} (${cita})`).then(() => {
-      setOpen(true);
-
-      hitCounter("copy.parauleta");
+  const onCopyToClipboard = async () => {
+    await Clipboard.write({
+      string: `${verset} (${cita})`,
     });
+
+    setOpen(true);
+
+    hitCounter("copy.parauleta");
   };
 
   const onShare = () => {

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@capacitor/android": "^3.3.3",
+    "@capacitor/clipboard": "^1.0.6",
     "@capacitor/core": "^3.3.3",
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
