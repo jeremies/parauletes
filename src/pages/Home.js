@@ -8,6 +8,7 @@ import CachedIcon from "@mui/icons-material/Cached";
 import Snackbar from "@mui/material/Snackbar";
 import { hitCounter } from "../utils/Utils";
 import { Clipboard } from "@capacitor/clipboard";
+import { Share } from "@capacitor/share";
 
 function reload() {
   window.location.reload();
@@ -49,9 +50,10 @@ function Home() {
     hitCounter("copy.parauleta");
   };
 
-  const onShare = () => {
-    navigator.share({
+  const onShare = async () => {
+    await Share.share({
       text: `${verset} (${cita})`,
+      dialogTitle: "Compartir la parauleta",
     });
 
     hitCounter("share.parauleta");

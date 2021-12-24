@@ -3,6 +3,7 @@ import AppBarGoBack from "../components/AppBarGoBack";
 import Button from "@mui/material/Button";
 import ShareIcon from "@mui/icons-material/Share";
 import { hitCounter } from "../utils/Utils";
+import { Share } from "@capacitor/share";
 
 import "./Settings.css";
 
@@ -11,9 +12,10 @@ function Settings() {
     hitCounter("settings");
   }, []);
 
-  const onShareApp = () => {
-    navigator.share({
-      text: "https://parauletes.netlify.app",
+  const onShareApp = async () => {
+    await Share.share({
+      url: "https://parauletes.netlify.app",
+      dialogTitle: "Compartir l'app",
     });
 
     hitCounter("share.app");
