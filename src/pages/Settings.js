@@ -4,6 +4,8 @@ import Button from "@mui/material/Button";
 import ShareIcon from "@mui/icons-material/Share";
 import { hitCounter } from "../utils/Utils";
 import { Share } from "@capacitor/share";
+import googlePlayBadge from "../assets/google-play-badge.png";
+import { googlePlayLink } from "../utils/Constants";
 
 import "./Settings.css";
 
@@ -14,7 +16,7 @@ function Settings() {
 
   const onShareApp = async () => {
     await Share.share({
-      url: "https://parauletes.netlify.app",
+      url: googlePlayLink,
       dialogTitle: "Compartir l'app",
     });
 
@@ -32,6 +34,13 @@ function Settings() {
         >
           Compartir App
         </Button>
+        <a href={googlePlayLink} target="_blank" rel="noreferrer noopener">
+          <img
+            alt="Disponible a Google Play"
+            src={googlePlayBadge}
+            className="badge"
+          />
+        </a>
       </main>
     </div>
   );
