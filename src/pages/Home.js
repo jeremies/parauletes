@@ -9,6 +9,8 @@ import Snackbar from "@mui/material/Snackbar";
 import { hitCounter } from "../utils/Utils";
 import { Clipboard } from "@capacitor/clipboard";
 import { Share } from "@capacitor/share";
+import { LocalNotifications } from "@capacitor/local-notifications";
+import { Device } from "@capacitor/device";
 
 function reload() {
   window.location.reload();
@@ -36,6 +38,33 @@ function Home() {
 
     setVerset(parauletes[numeroAleatori].versetCA);
     setCita(getCitaCompleta(parauletes[numeroAleatori].cita));
+
+    Device.getInfo().then((info) => {
+      if (info.platform !== "android") {
+        return;
+      }
+
+      LocalNotifications.schedule({
+        notifications: [
+          {
+            id: 1,
+            title: "Parauleta del dia 14:48",
+            schedule: {
+              on: {
+                hour: 14,
+                minute: 48,
+              },
+            },
+          },
+        ],
+      });
+
+      LocalNotifications.getPending().then((result) => console.log(result));
+
+      LocalNotifications.addListener("localNotificationActionPerformed", () => {
+        window.location.pathname = "/refresh";
+      });
+    });
 
     hitCounter("requests");
   }, []);

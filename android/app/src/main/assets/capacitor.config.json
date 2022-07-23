@@ -2,5 +2,11 @@
 	"appId": "com.joaquim.monserrat.parauletes",
 	"appName": "Parauletes",
 	"webDir": "build",
-	"bundledWebRuntime": false
+	"bundledWebRuntime": false,
+	"plugins": {
+		"LocalNotifications": {
+			"smallIcon": "ic_launcher",
+			"sound": ""
+		}
+	}
 }
