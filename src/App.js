@@ -14,8 +14,11 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import { CATALAN, ENGLISH, LANGUAGE_KEY, SPANISH } from "./utils/Constants";
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const [, i18n] = useTranslation("main");
+
   const darkTheme = createTheme({
     palette: {
       mode: "dark",
@@ -27,6 +30,7 @@ function App() {
       let { value: language } = await Preferences.get({ key: LANGUAGE_KEY });
 
       if (language) {
+        i18n.changeLanguage(language);
         return;
       }
 
@@ -36,6 +40,7 @@ function App() {
         language = ENGLISH;
       }
 
+      i18n.changeLanguage(language);
       await Preferences.set({
         key: LANGUAGE_KEY,
         value: language,
@@ -43,7 +48,7 @@ function App() {
     }
 
     setDefaultLanguage();
-  }, []);
+  }, [i18n]);
 
   return (
     <ThemeProvider theme={darkTheme}>

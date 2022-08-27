@@ -6,6 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function AppBarGoBack() {
   const navigate = useNavigate();
@@ -13,6 +14,8 @@ function AppBarGoBack() {
     navigate(-1);
   };
   const location = useLocation();
+
+  const [t] = useTranslation("main");
 
   return (
     <AppBar position="static">
@@ -27,8 +30,8 @@ function AppBarGoBack() {
           <ArrowBackIcon />
         </IconButton>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          {location.pathname === "/about" ? "Sobre l'App" : ""}
-          {location.pathname === "/settings" ? "Configuració" : ""}
+          {location.pathname === "/about" ? t("app-bar.about") : ""}
+          {location.pathname === "/settings" ? t("app-bar.settings") : ""}
         </Typography>
       </Toolbar>
     </AppBar>

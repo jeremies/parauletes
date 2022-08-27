@@ -1,0 +1,22 @@
+{
+  "home": {
+    "app-title": "Little Words",
+    "copy": "Copy",
+    "share": "Share",
+    "share-dialog-title": "Share the Little Word",
+    "message-copied-ok": "The Little Word has been copied to the clipboard"
+  },
+  "app-bar": {
+    "settings": "Settings",
+    "about": "About"
+  },
+  "about": {
+    "title": "About Little Words",
+    "paragraph-1": "Little Words app gives you a random Bible verse.",
+    "paragraph-2": "One possible way to use the application is while praying (a holy hour, in front of the tabernacle, etc.) you can read a Little Word to intuit what the Lord is suggesting to us at that moment."
+  },
+  "settings": {
+    "share-app": "Share the app",
+    "language": "Language"
+  }
+}

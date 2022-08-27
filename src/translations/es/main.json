@@ -1,0 +1,22 @@
+{
+  "home": {
+    "app-title": "Palabritas",
+    "copy": "Copiar",
+    "share": "Compartir",
+    "share-dialog-title": "Compartir la palabrita",
+    "message-copied-ok": "La palabrita se ha copiado al portapapeles"
+  },
+  "app-bar": {
+    "settings": "Configuración",
+    "about": "Acerca de la App"
+  },
+  "about": {
+    "title": "Acerca de la App Palabritas",
+    "paragraph-1": "La aplicación Palabritas te da un versículo de la Bíblia al azar.",
+    "paragraph-2": "Una forma posible de usar la aplicación es mientras se está haciendo oración (una hora santa, delante del sagrario, etc) se puede leer una Palabrita para intuir lo que nos sugiere el Señor en ese momento."
+  },
+  "settings": {
+    "share-app": "Compartir la app",
+    "language": "Idioma"
+  }
+}

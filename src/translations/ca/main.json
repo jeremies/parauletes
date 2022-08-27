@@ -1,0 +1,22 @@
+{
+  "home": {
+    "app-title": "Parauletes",
+    "copy": "Copiar",
+    "share": "Compartir",
+    "share-dialog-title": "Compartir la parauleta",
+    "message-copied-ok": "La parauleta s'ha copiat al portapapers."
+  },
+  "app-bar": {
+    "settings": "Configuració",
+    "about": "Sobre l'App"
+  },
+  "about": {
+    "title": "Sobre l'App Parauletes",
+    "paragraph-1": "L'aplicació Parauletes et dóna un verset de la Bíblia a l'atzar.",
+    "paragraph-2": "Una forma possible d'usar l'aplicació és mentre s'està fent oració (una hora santa, davant del sagrari, etc) es pot llegir una Parauleta per intuïr el que ens suggereix el Senyor en aquest moment."
+  },
+  "settings": {
+    "share-app": "Compartir l'app",
+    "language": "Idioma"
+  }
+}

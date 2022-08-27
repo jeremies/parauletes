@@ -10,7 +10,8 @@ import { hitCounter } from "../utils/Utils";
 import { Clipboard } from "@capacitor/clipboard";
 import { Share } from "@capacitor/share";
 import { usePreferencesItem } from "../hooks/usePreferences";
-import { LANGUAGE_KEY } from "../utils/Constants";
+import { LANGUAGE_KEY, SPANISH } from "../utils/Constants";
+import { useTranslation } from "react-i18next";
 
 function reload() {
   window.location.reload();
@@ -32,7 +33,8 @@ function Home() {
   const [verset, setVerset] = useState();
   const [cita, setCita] = useState();
   const [open, setOpen] = useState(false);
-  const [language] = usePreferencesItem(LANGUAGE_KEY);
+  const [language] = usePreferencesItem(LANGUAGE_KEY, SPANISH); // TODO here it takes default value SPANISH for the first time there is a race condition between app.js setting language and here reading language.
+  const [t] = useTranslation("main");
 
   useEffect(() => {
     let numeroAleatori = getRandomInt(parauletes.length);
@@ -56,7 +58,7 @@ function Home() {
   const onShare = async () => {
     await Share.share({
       text: `${verset} (${cita})`,
-      dialogTitle: "Compartir la parauleta",
+      dialogTitle: t("home.share-dialog-title"),
     });
 
     hitCounter("share.parauleta");
@@ -87,7 +89,7 @@ function Home() {
         open={open}
         autoHideDuration={3000}
         onClose={handleClose}
-        message="La parauleta s'ha copiat al portapapers."
+        message={t("home.message-copied-ok")}
       />
     </div>
   );

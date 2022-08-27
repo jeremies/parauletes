@@ -10,9 +10,11 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import "./AppBarHome.css";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
+import { useTranslation } from "react-i18next";
 
 function AppBarHome(props) {
   const [anchorElMenu, setAnchorElMenu] = useState(null);
+  const [t] = useTranslation("main");
   const menuOpen = Boolean(anchorElMenu);
   const handleClickMenu = (event) => {
     setAnchorElMenu(event.currentTarget);
@@ -54,15 +56,15 @@ function AppBarHome(props) {
         </IconButton>
         <Menu anchorEl={anchorElMenu} open={menuOpen} onClose={handleCloseMenu}>
           <MenuItem onClick={handleCloseMenu} component={Link} to="settings">
-            Configuració
+            {t("app-bar.settings")}
           </MenuItem>
           <MenuItem onClick={handleCloseMenu} component={Link} to="about">
-            Sobre l'App
+            {t("app-bar.about")}
           </MenuItem>
         </Menu>
         <img src={logo} className="icon" alt="logo" />
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Parauletes
+          {t("home.app-title")}
         </Typography>
         <IconButton
           size="large"
@@ -78,8 +80,8 @@ function AppBarHome(props) {
           open={optionsOpen}
           onClose={handleCloseOptions}
         >
-          <MenuItem onClick={onClickCopy}>Copiar</MenuItem>
-          <MenuItem onClick={onClickShare}>Compartir</MenuItem>
+          <MenuItem onClick={onClickCopy}> {t("home.copy")}</MenuItem>
+          <MenuItem onClick={onClickShare}>{t("home.share")}</MenuItem>
         </Menu>
       </Toolbar>
     </AppBar>

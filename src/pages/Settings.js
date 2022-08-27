@@ -19,9 +19,11 @@ import FormControl from "@mui/material/FormControl";
 
 import "./Settings.css";
 import { usePreferencesItem } from "../hooks/usePreferences";
+import { useTranslation } from "react-i18next";
 
 function Settings() {
   const [language, setLanguage] = usePreferencesItem(LANGUAGE_KEY);
+  const [t, i18n] = useTranslation("main");
 
   useEffect(() => {
     hitCounter("settings");
@@ -30,14 +32,16 @@ function Settings() {
   const onShareApp = async () => {
     await Share.share({
       url: googlePlayLink,
-      dialogTitle: "Compartir l'app",
+      dialogTitle: t("settings.share-app"),
     });
 
     hitCounter("share.app");
   };
 
   const handleChange = (event) => {
-    setLanguage(event.target.value);
+    const language = event.target.value;
+    i18n.changeLanguage(language);
+    setLanguage(language);
   };
 
   return (
@@ -45,11 +49,11 @@ function Settings() {
       <AppBarGoBack></AppBarGoBack>
       <main className="settings-body">
         <FormControl sx={{ margin: 2 }}>
-          <InputLabel id="select-label">Idioma</InputLabel>
+          <InputLabel id="select-label">{t("settings.language")}</InputLabel>
           <Select
             labelId="select-label"
             value={language}
-            label="Idioma"
+            label={t("settings.language")}
             onChange={handleChange}
           >
             <MenuItem value={CATALAN}>Català</MenuItem>
@@ -65,7 +69,7 @@ function Settings() {
           onClick={onShareApp}
           sx={{ margin: 2 }}
         >
-          Compartir App
+          {t("settings.share-app")}
         </Button>
         <a href={googlePlayLink} target="_blank" rel="noreferrer noopener">
           <img
