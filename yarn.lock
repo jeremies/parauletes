@@ -1189,6 +1189,16 @@
   dependencies:
     tslib "^2.1.0"
 
+"@capacitor/device@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/device/-/device-4.0.1.tgz#4bf1e79aeba6d1ae07c7db0df44331bf18515887"
+  integrity sha512-D0jJFQYifmsgcz4X9MEEKH5E36ARK2CJcUCXJbcuFTChHSxK+ly7Kd6PZC73Y5GkEZIjpebWAWo5F3w9S4hsYQ==
+
+"@capacitor/preferences@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/preferences/-/preferences-4.0.1.tgz#fd56f24fe2cde1222cf5c3057d52cd55fd033e7b"
+  integrity sha512-FffJjKS4XcodUj/rtFtWizQ9q/oYDSn5opZ+JYwj/EkjiMWMhY/Pk9lN3vwQfp+VJrTt3hjr+bwKXjhTbYBqKw==
+
 "@capacitor/share@^1.0.7":
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@capacitor/share/-/share-1.0.7.tgz#f62d6827cd65fc131bfb02d2b52dc830eed26786"

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
@@ -6,11 +6,14 @@ import Settings from "./pages/Settings";
 import About from "./pages/About";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
+import { Device } from "@capacitor/device";
+import { Preferences } from "@capacitor/preferences";
 
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
+import { CATALAN, ENGLISH, LANGUAGE_KEY, SPANISH } from "./utils/Constants";
 
 function App() {
   const darkTheme = createTheme({
@@ -18,6 +21,30 @@ function App() {
       mode: "dark",
     },
   });
+
+  useEffect(() => {
+    async function setDefaultLanguage() {
+      let { value: language } = await Preferences.get({ key: LANGUAGE_KEY });
+
+      if (language) {
+        return;
+      }
+
+      ({ value: language } = await Device.getLanguageCode());
+
+      if (![CATALAN, SPANISH, ENGLISH].includes(language)) {
+        language = ENGLISH;
+      }
+
+      await Preferences.set({
+        key: LANGUAGE_KEY,
+        value: language,
+      });
+    }
+
+    setDefaultLanguage();
+  }, []);
+
   return (
     <ThemeProvider theme={darkTheme}>
       <Paper sx={{ minHeight: "100vh" }} elevation={12}>

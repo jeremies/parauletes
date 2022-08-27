@@ -1,130 +1,194 @@
 [
-    {
-        "abreviacio": "1Co",
-        "llibreCA": "1a Corintis"
-    },
-    {
-        "abreviacio": "1Cr",
-        "llibreCA": "1r Cròniques"
-    },
-    {
-        "abreviacio": "1Jn",
-        "llibreCA": "1a Joan"
-    },
-    {
-        "abreviacio": "1Pe",
-        "llibreCA": "1a Pere"
-    },
-    {
-        "abreviacio": "1Sa",
-        "llibreCA": "1r Samuel"
-    },
-    {
-        "abreviacio": "1Tm",
-        "llibreCA": "1a Timoteu"
-    },
-    {
-        "abreviacio": "2Co",
-        "llibreCA": "2a Corintis"
-    },
-    {
-        "abreviacio": "Ac",
-        "llibreCA": "Fets Apòstols"
-    },
-    {
-        "abreviacio": "Col",
-        "llibreCA": "Colossencs"
-    },
-    {
-        "abreviacio": "Ct",
-        "llibreCA": "Càntic dels càntics"
-    },
-    {
-        "abreviacio": "Dt",
-        "llibreCA": "Deuteronomi"
-    },
-    {
-        "abreviacio": "Ef",
-        "llibreCA": "Efesis"
-    },
-    {
-        "abreviacio": "Ez",
-        "llibreCA": "Ezequiel"
-    },
-    {
-        "abreviacio": "Fl",
-        "llibreCA": "Filipencs"
-    },
-    {
-        "abreviacio": "Gn",
-        "llibreCA": "Gènesi"
-    },
-    {
-        "abreviacio": "Ha",
-        "llibreCA": "Habacuc"
-    },
-    {
-        "abreviacio": "He",
-        "llibreCA": "Hebreus"
-    },
-    {
-        "abreviacio": "Is",
-        "llibreCA": "Isaïes"
-    },
-    {
-        "abreviacio": "Jb",
-        "llibreCA": "Job"
-    },
-    {
-        "abreviacio": "Jm",
-        "llibreCA": "Jaume"
-    },
-    {
-        "abreviacio": "Jn",
-        "llibreCA": "Joan"
-    },
-    {
-        "abreviacio": "Jr",
-        "llibreCA": "Jeremies"
-    },
-    {
-        "abreviacio": "Js",
-        "llibreCA": "Josuè"
-    },
-    {
-        "abreviacio": "Lc",
-        "llibreCA": "Lluc"
-    },
-    {
-        "abreviacio": "Lm",
-        "llibreCA": "Lamentacions"
-    },
-    {
-        "abreviacio": "Mc",
-        "llibreCA": "Marc"
-    },
-    {
-        "abreviacio": "Mt",
-        "llibreCA": "Mateu"
-    },
-    {
-        "abreviacio": "Os",
-        "llibreCA": "Osees"
-    },
-    {
-        "abreviacio": "Pr",
-        "llibreCA": "Proverbis"
-    },
-    {
-        "abreviacio": "Rm",
-        "llibreCA": "Romans"
-    },
-    {
-        "abreviacio": "Sir",
-        "llibreCA": "Siràcida"
-    },
-    {
-        "abreviacio": "Sl",
-        "llibreCA": "Salms"
-    }
+  {
+    "abreviacio": "1Co",
+    "llibreCA": "1a Corintis",
+    "llibreES": "1 Corintios",
+    "llibreEN": "1 Corinthians"
+  },
+  {
+    "abreviacio": "1Cr",
+    "llibreCA": "1r Cròniques",
+    "llibreES": "1 Crónicas",
+    "llibreEN": "1 Chronicles"
+  },
+  {
+    "abreviacio": "1Jn",
+    "llibreCA": "1a Joan",
+    "llibreES": "1 Juan",
+    "llibreEN": "1 John"
+  },
+  {
+    "abreviacio": "1Pe",
+    "llibreCA": "1a Pere",
+    "llibreES": "1 Pedro",
+    "llibreEN": "1 Peter"
+  },
+  {
+    "abreviacio": "1Sa",
+    "llibreCA": "1r Samuel",
+    "llibreES": "1 Samuel",
+    "llibreEN": "1 Samuel"
+  },
+  {
+    "abreviacio": "1Tm",
+    "llibreCA": "1a Timoteu",
+    "llibreES": "1 Timoteo",
+    "llibreEN": "1 Timothy"
+  },
+  {
+    "abreviacio": "2Co",
+    "llibreCA": "2a Corintis",
+    "llibreES": "2 Corintios",
+    "llibreEN": "2 Corinthians"
+  },
+  {
+    "abreviacio": "Ac",
+    "llibreCA": "Fets Apòstols",
+    "llibreES": "Hechos",
+    "llibreEN": "Acts"
+  },
+  {
+    "abreviacio": "Col",
+    "llibreCA": "Colossencs",
+    "llibreES": "Colosenses",
+    "llibreEN": "Colossians"
+  },
+  {
+    "abreviacio": "Ct",
+    "llibreCA": "Càntic dels càntics",
+    "llibreES": "Cantar de los Cantares",
+    "llibreEN": "Song of Songs"
+  },
+  {
+    "abreviacio": "Dt",
+    "llibreCA": "Deuteronomi",
+    "llibreES": "Deuteronomio",
+    "llibreEN": "Deuteronomy"
+  },
+  {
+    "abreviacio": "Ef",
+    "llibreCA": "Efesis",
+    "llibreES": "Efesios",
+    "llibreEN": "Ephesians"
+  },
+  {
+    "abreviacio": "Ez",
+    "llibreCA": "Ezequiel",
+    "llibreES": "Ezequiel",
+    "llibreEN": "Ezekiel"
+  },
+  {
+    "abreviacio": "Fl",
+    "llibreCA": "Filipencs",
+    "llibreES": "Filipenses",
+    "llibreEN": "Philippians"
+  },
+  {
+    "abreviacio": "Gn",
+    "llibreCA": "Gènesi",
+    "llibreES": "Génesis",
+    "llibreEN": "Genesis"
+  },
+  {
+    "abreviacio": "Ha",
+    "llibreCA": "Habacuc",
+    "llibreES": "Habacuc",
+    "llibreEN": "Habakkuk"
+  },
+  {
+    "abreviacio": "He",
+    "llibreCA": "Hebreus",
+    "llibreES": "Hebreos",
+    "llibreEN": "Hebrews"
+  },
+  {
+    "abreviacio": "Is",
+    "llibreCA": "Isaïes",
+    "llibreES": "Isaías",
+    "llibreEN": "Isaiah"
+  },
+  {
+    "abreviacio": "Jb",
+    "llibreCA": "Job",
+    "llibreES": "Job",
+    "llibreEN": "Job"
+  },
+  {
+    "abreviacio": "Jm",
+    "llibreCA": "Jaume",
+    "llibreES": "Santiago",
+    "llibreEN": "James"
+  },
+  {
+    "abreviacio": "Jn",
+    "llibreCA": "Joan",
+    "llibreES": "Juan",
+    "llibreEN": "John"
+  },
+  {
+    "abreviacio": "Jr",
+    "llibreCA": "Jeremies",
+    "llibreES": "Jeremías",
+    "llibreEN": "Jeremiah"
+  },
+  {
+    "abreviacio": "Js",
+    "llibreCA": "Josuè",
+    "llibreES": "Josué",
+    "llibreEN": "Joshua"
+  },
+  {
+    "abreviacio": "Lc",
+    "llibreCA": "Lluc",
+    "llibreES": "Lucas",
+    "llibreEN": "Luke"
+  },
+  {
+    "abreviacio": "Lm",
+    "llibreCA": "Lamentacions",
+    "llibreES": "Lamentaciones",
+    "llibreEN": "Lamentations"
+  },
+  {
+    "abreviacio": "Mc",
+    "llibreCA": "Marc",
+    "llibreES": "Marcos",
+    "llibreEN": "Mark"
+  },
+  {
+    "abreviacio": "Mt",
+    "llibreCA": "Mateu",
+    "llibreES": "Mateo",
+    "llibreEN": "Matthew"
+  },
+  {
+    "abreviacio": "Os",
+    "llibreCA": "Osees",
+    "llibreES": "Oseas",
+    "llibreEN": "Hosea"
+  },
+  {
+    "abreviacio": "Pr",
+    "llibreCA": "Proverbis",
+    "llibreES": "Proverbios",
+    "llibreEN": "Proverbs"
+  },
+  {
+    "abreviacio": "Rm",
+    "llibreCA": "Romans",
+    "llibreES": "Romanos",
+    "llibreEN": "Romans"
+  },
+  {
+    "abreviacio": "Sir",
+    "llibreCA": "Siràcida",
+    "llibreES": "Eclesiástico",
+    "llibreEN": "Sirach"
+  },
+  {
+    "abreviacio": "Sl",
+    "llibreCA": "Salms",
+    "llibreES": "Salmos",
+    "llibreEN": "Psalms"
+  }
 ]

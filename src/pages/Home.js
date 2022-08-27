@@ -9,6 +9,8 @@ import Snackbar from "@mui/material/Snackbar";
 import { hitCounter } from "../utils/Utils";
 import { Clipboard } from "@capacitor/clipboard";
 import { Share } from "@capacitor/share";
+import { usePreferencesItem } from "../hooks/usePreferences";
+import { LANGUAGE_KEY } from "../utils/Constants";
 
 function reload() {
   window.location.reload();
@@ -18,11 +20,11 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-function getCitaCompleta(cita) {
+function getCitaCompleta(cita, language) {
   var [llibre, capitol, versets] = cita.split(".");
   var llibreComplet = abreviacions.find(
     (abreviacio) => abreviacio.abreviacio === llibre
-  ).llibreCA;
+  )[`llibre${language.toUpperCase()}`];
   return `${llibreComplet} ${capitol}, ${versets}`;
 }
 
@@ -30,15 +32,16 @@ function Home() {
   const [verset, setVerset] = useState();
   const [cita, setCita] = useState();
   const [open, setOpen] = useState(false);
+  const [language] = usePreferencesItem(LANGUAGE_KEY);
 
   useEffect(() => {
     let numeroAleatori = getRandomInt(parauletes.length);
 
-    setVerset(parauletes[numeroAleatori].versetCA);
-    setCita(getCitaCompleta(parauletes[numeroAleatori].cita));
+    setVerset(parauletes[numeroAleatori][`verset${language.toUpperCase()}`]);
+    setCita(getCitaCompleta(parauletes[numeroAleatori].cita, language));
 
     hitCounter("requests");
-  }, []);
+  }, [language]);
 
   const onCopyToClipboard = async () => {
     await Clipboard.write({
