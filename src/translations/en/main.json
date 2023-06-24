@@ -17,6 +17,9 @@
   },
   "settings": {
     "share-app": "Share the app",
-    "language": "Language"
+    "language": "Language",
+    "mode": "Mode",
+    "light": "Light",
+    "dark": "Dark"
   }
 }

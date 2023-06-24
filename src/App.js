@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
@@ -15,15 +15,21 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import { CATALAN, ENGLISH, LANGUAGE_KEY, SPANISH } from "./utils/Constants";
 import { useTranslation } from "react-i18next";
+import { useTheme } from "./hooks/useTheme";
 
 function App() {
   const [, i18n] = useTranslation("main");
+  const theme = useTheme();
 
-  const darkTheme = createTheme({
-    palette: {
-      mode: "dark",
-    },
-  });
+  const muiTheme = useMemo(
+    () =>
+      createTheme({
+        palette: {
+          mode: theme,
+        },
+      }),
+    [theme]
+  );
 
   useEffect(() => {
     async function setDefaultLanguage() {
@@ -51,7 +57,7 @@ function App() {
   }, [i18n]);
 
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={muiTheme}>
       <Paper sx={{ minHeight: "100vh" }} elevation={12}>
         <div>
           <Routes>

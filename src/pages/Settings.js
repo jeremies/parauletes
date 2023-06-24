@@ -20,10 +20,17 @@ import FormControl from "@mui/material/FormControl";
 import "./Settings.css";
 import { usePreferencesItem } from "../hooks/usePreferences";
 import { useTranslation } from "react-i18next";
+import { ToggleButton, ToggleButtonGroup, Typography } from "@mui/material";
+import LightModeIcon from "@mui/icons-material/LightMode";
+import DarkModeIcon from "@mui/icons-material/DarkMode";
+import { useTheme } from "../hooks/useTheme";
+import { useSetTheme } from "../hooks/useSetTheme";
 
 function Settings() {
   const [language, setLanguage] = usePreferencesItem(LANGUAGE_KEY);
   const [t, i18n] = useTranslation("main");
+  const setTheme = useSetTheme();
+  const theme = useTheme();
 
   useEffect(() => {
     hitCounter("settings");
@@ -38,10 +45,16 @@ function Settings() {
     hitCounter("share.app");
   };
 
-  const handleChange = (event) => {
+  const handleChangeLanguage = (event) => {
     const language = event.target.value;
     i18n.changeLanguage(language);
     setLanguage(language);
+  };
+
+  const handleTheme = (event, newTheme) => {
+    if (newTheme) {
+      setTheme(newTheme);
+    }
   };
 
   return (
@@ -54,12 +67,25 @@ function Settings() {
             labelId="select-label"
             value={language}
             label={t("settings.language")}
-            onChange={handleChange}
+            onChange={handleChangeLanguage}
           >
             <MenuItem value={CATALAN}>Català</MenuItem>
             <MenuItem value={ENGLISH}>English</MenuItem>
             <MenuItem value={SPANISH}>Español</MenuItem>
           </Select>
+          <Typography mt={2} variant="button" display="block" gutterBottom>
+            {t("settings.mode")}
+          </Typography>
+          <ToggleButtonGroup value={theme} exclusive onChange={handleTheme}>
+            <ToggleButton value="light">
+              <LightModeIcon sx={{ marginRight: 1 }} />
+              {t("settings.light")}
+            </ToggleButton>
+            <ToggleButton value="dark">
+              <DarkModeIcon sx={{ marginRight: 1 }} />
+              {t("settings.dark")}
+            </ToggleButton>
+          </ToggleButtonGroup>
         </FormControl>
 
         <Button

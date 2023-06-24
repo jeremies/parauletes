@@ -17,6 +17,9 @@
   },
   "settings": {
     "share-app": "Compartir l'app",
-    "language": "Idioma"
+    "language": "Idioma",
+    "mode": "Mode",
+    "light": "Clar",
+    "dark": "Obscur"
   }
 }

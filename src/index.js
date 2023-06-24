@@ -10,6 +10,7 @@ import i18next from "i18next";
 import main_ca from "./translations/ca/main.json";
 import main_es from "./translations/es/main.json";
 import main_en from "./translations/en/main.json";
+import ThemeProvider from "./context";
 
 i18next.init({
   interpolation: { escapeValue: false }, // React already does escaping
@@ -31,7 +32,9 @@ ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
       <I18nextProvider i18n={i18next}>
-        <App />
+        <ThemeProvider>
+          <App />
+        </ThemeProvider>
       </I18nextProvider>
     </React.StrictMode>
   </BrowserRouter>,
