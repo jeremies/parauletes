@@ -7,10 +7,13 @@ import { Share } from "@capacitor/share";
 import googlePlayBadge from "../assets/google-play-badge.png";
 import {
   CATALAN,
+  DARK,
   ENGLISH,
   googlePlayLink,
   LANGUAGE_KEY,
+  LIGHT,
   SPANISH,
+  THEME_KEY,
 } from "../utils/Constants";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
@@ -18,7 +21,7 @@ import InputLabel from "@mui/material/InputLabel";
 import FormControl from "@mui/material/FormControl";
 
 import "./Settings.css";
-import { usePreferencesItem } from "../hooks/usePreferences";
+import { usePreferences, usePreferencesItem } from "../hooks/usePreferences";
 import { useTranslation } from "react-i18next";
 import { ToggleButton, ToggleButtonGroup, Typography } from "@mui/material";
 import LightModeIcon from "@mui/icons-material/LightMode";
@@ -31,6 +34,7 @@ function Settings() {
   const [t, i18n] = useTranslation("main");
   const setTheme = useSetTheme();
   const theme = useTheme();
+  const { set } = usePreferences();
 
   useEffect(() => {
     hitCounter("settings");
@@ -53,6 +57,7 @@ function Settings() {
 
   const handleTheme = (event, newTheme) => {
     if (newTheme) {
+      set(THEME_KEY, newTheme);
       setTheme(newTheme);
     }
   };
@@ -77,11 +82,11 @@ function Settings() {
             {t("settings.mode")}
           </Typography>
           <ToggleButtonGroup value={theme} exclusive onChange={handleTheme}>
-            <ToggleButton value="light">
+            <ToggleButton value={LIGHT}>
               <LightModeIcon sx={{ marginRight: 1 }} />
               {t("settings.light")}
             </ToggleButton>
-            <ToggleButton value="dark">
+            <ToggleButton value={DARK}>
               <DarkModeIcon sx={{ marginRight: 1 }} />
               {t("settings.dark")}
             </ToggleButton>
