@@ -12,10 +12,9 @@ import { Share } from "@capacitor/share";
 import { usePreferencesItem } from "../hooks/usePreferences";
 import { LANGUAGE_KEY, SPANISH } from "../utils/Constants";
 import { useTranslation } from "react-i18next";
+import { Device } from "@capacitor/device";
 
-function reload() {
-  window.location.reload();
-}
+const info = Device.getInfo();
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -30,6 +29,7 @@ function getCitaCompleta(cita, language) {
 }
 
 function Home() {
+  const [counter, setCounter] = useState(0);
   const [verset, setVerset] = useState();
   const [cita, setCita] = useState();
   const [open, setOpen] = useState(false);
@@ -43,7 +43,7 @@ function Home() {
     setCita(getCitaCompleta(parauletes[numeroAleatori].cita, language));
 
     hitCounter("requests");
-  }, [language]);
+  }, [language, counter]);
 
   const onCopyToClipboard = async () => {
     await Clipboard.write({
@@ -66,6 +66,15 @@ function Home() {
 
   const handleClose = () => {
     setOpen(false);
+  };
+
+  const reload = async () => {
+    info.then((info) => {
+      setCounter((counter) => counter + 1);
+      if (counter > 0 && counter % 10 === 0 && info.platform === "web") {
+        window.location.reload();
+      }
+    });
   };
 
   return (
