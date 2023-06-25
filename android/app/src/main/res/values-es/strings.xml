@@ -2,6 +2,4 @@
 <resources>
     <string name="app_name">Palabritas</string>
     <string name="title_activity_main">Palabritas</string>
-    <string name="package_name">com.joaquim.monserrat.parauletes</string>
-    <string name="custom_url_scheme">com.joaquim.monserrat.parauletes</string>
 </resources>
