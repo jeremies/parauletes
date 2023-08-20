@@ -2,10 +2,5 @@
 	"appId": "com.joaquim.monserrat.parauletes",
 	"appName": "Parauletes",
 	"webDir": "build",
-	"bundledWebRuntime": false,
-	"plugins": {
-		"SplashScreen": {
-			"launchAutoHide": false
-		}
-	}
+	"bundledWebRuntime": false
 }

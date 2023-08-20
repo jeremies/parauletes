@@ -16,7 +16,6 @@ import "@fontsource/roboto/700.css";
 import { CATALAN, ENGLISH, LANGUAGE_KEY, SPANISH } from "./utils/Constants";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "./hooks/useTheme";
-import { SplashScreen } from "@capacitor/splash-screen";
 
 function App() {
   const [, i18n] = useTranslation("main");
@@ -38,7 +37,6 @@ function App() {
 
       if (language) {
         await i18n.changeLanguage(language);
-        await SplashScreen.hide();
         return;
       }
 
@@ -53,8 +51,6 @@ function App() {
         key: LANGUAGE_KEY,
         value: language,
       });
-
-      await SplashScreen.hide();
     }
 
     setDefaultLanguage();

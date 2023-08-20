@@ -9,7 +9,6 @@
     "@capacitor/device": "^5.0.0",
     "@capacitor/preferences": "^5.0.0",
     "@capacitor/share": "^5.0.0",
-    "@capacitor/splash-screen": "^5.0.0",
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
     "@fontsource/roboto": "^4.5.1",
