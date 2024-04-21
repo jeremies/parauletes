@@ -48,6 +48,7 @@
   },
   "devDependencies": {
     "@capacitor/assets": "^3.0.5",
-    "@capacitor/cli": "^5.0.0"
+    "@capacitor/cli": "^5.0.0",
+    "vite-plugin-pwa": "^0.19.8"
   }
 }
