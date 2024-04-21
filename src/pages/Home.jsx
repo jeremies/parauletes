@@ -84,6 +84,7 @@ function Home() {
         onClickShare={onShare}
       ></AppBarHome>
       <div className="home-body">
+        holahola
         <p className="verset">{verset}</p>
         <p className="cita">{cita}</p>
         <Fab
