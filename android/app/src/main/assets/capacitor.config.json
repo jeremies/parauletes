@@ -1,6 +1,5 @@
 {
 	"appId": "com.joaquim.monserrat.parauletes",
 	"appName": "Parauletes",
-	"webDir": "build",
-	"bundledWebRuntime": false
+	"webDir": "build"
 }
