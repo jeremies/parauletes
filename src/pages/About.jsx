@@ -19,6 +19,19 @@ function About() {
         <h1>{t("about.title")}</h1>
         <h3>{t("about.paragraph-1")}</h3>
         <h3>{t("about.paragraph-2")}</h3>
+        <h1>{t("about.credits.title")}</h1>
+        <h3>
+          {t("about.credits.paragraph-1")}{" "}
+          <a
+            className="link-dina"
+            href="https://www.dinacomics.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            dinacomics.com
+          </a>
+        </h3>
+        <h3>{t("about.credits.paragraph-2")}</h3>
       </main>
     </div>
   );

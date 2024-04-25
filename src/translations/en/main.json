@@ -13,7 +13,12 @@
   "about": {
     "title": "About Palabritas",
     "paragraph-1": "Palabritas app gives you a random Bible verse.",
-    "paragraph-2": "One possible way to use the application is while praying (a holy hour, in front of the tabernacle, etc.) you can read a Palabrita to intuit what the Lord is suggesting to us at that moment."
+    "paragraph-2": "One possible way to use the application is while praying (a holy hour, in front of the tabernacle, etc.) you can read a Palabrita to intuit what the Lord is suggesting to us at that moment.",
+    "credits": {
+      "title": "Credits",
+      "paragraph-1": "Illustrations from",
+      "paragraph-2": "Drawn by Clàudia Mata i Serra"
+    }
   },
   "settings": {
     "share-app": "Share the app",
