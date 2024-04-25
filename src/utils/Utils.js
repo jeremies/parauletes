@@ -1,11 +1,14 @@
 import { Device } from "@capacitor/device";
 
-const info = await Device.getInfo();
+let info;
+Device.getInfo().then((res) => {
+  info = res;
+});
 
 export function hitCounter(key) {
   if (key === "requests") {
     let apikey = "";
-    if (info.platform === "web") {
+    if (info?.platform === "web") {
       apikey = "Jo79x+Q5SRIajvMGuXUKbA==WX1kUV4RMuFOTeNM";
     } else {
       apikey = "dKaL7qrDFbaPDJuTNG/0zw==RiK5bKNmTKbvCJxN";
