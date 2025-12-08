@@ -32,7 +32,7 @@ function About() {
           </a>
         </h3>
         <h3>{t("about.credits.paragraph-2")}</h3>
-        <p>v. 1.6</p>
+        <p>v. 1.7</p>
       </main>
     </div>
   );
