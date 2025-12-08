@@ -1,23 +1,15 @@
 import React, { useEffect } from "react";
 import AppBarGoBack from "../components/AppBarGoBack";
 import { hitCounter } from "../utils/Utils";
-import { App } from "@capacitor/app";
 
 import "./About.css";
 import { useTranslation } from "react-i18next";
 
 function About() {
   const [t] = useTranslation("main");
-  const [version, setVersion] = React.useState("");
 
   useEffect(() => {
     hitCounter("about");
-  }, []);
-
-  useEffect(() => {
-    App.getInfo().then((info) => {
-      setVersion(info.version);
-    });
   }, []);
 
   return (
@@ -40,7 +32,7 @@ function About() {
           </a>
         </h3>
         <h3>{t("about.credits.paragraph-2")}</h3>
-        <p>v. {version}</p>
+        <p>v. 1.6</p>
       </main>
     </div>
   );
