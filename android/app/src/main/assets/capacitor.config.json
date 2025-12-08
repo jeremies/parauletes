@@ -1,5 +1,10 @@
 {
 	"appId": "com.joaquim.monserrat.parauletes",
 	"appName": "Parauletes",
-	"webDir": "build"
+	"webDir": "build",
+	"plugins": {
+		"EdgeToEdge": {
+			"backgroundColor": "black"
+		}
+	}
 }
